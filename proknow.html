@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ProKnow | Study Hub</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container row">
+      <a class="btn" href="index.html">← Home</a>
+      <h1 class="brand">ProKnow</h1>
+      <span class="spacer"></span>
+
+      <button class="btn ghost" id="resetScoreBtn" title="Reset score">Reset Score</button>
+      <button class="btn ghost" id="shuffleBtn" title="New question">Shuffle</button>
+    </div>
+  </header>
+
+  <main class="container proknow-layout">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h2 class="sidebar-title">Chapters</h2>
+      <nav id="topicList" class="topic-list"></nav>
+
+      <div class="sidebar-block">
+        <h3 class="sidebar-subtitle">Quiz Settings</h3>
+
+        <label class="field">
+          <span>Time per question (seconds)</span>
+          <input id="timePerQ" type="number" min="5" max="300" step="5" value="20" />
+        </label>
+
+        <label class="field">
+          <span>Auto-advance after answer</span>
+          <input id="autoAdvance" type="checkbox" checked />
+        </label>
+
+        <p class="muted small">
+         
+        </p>
+      </div>
+    </aside>
+
+    <!-- Content -->
+    <section class="content">
+      <!-- Score / Timer -->
+      <div class="panel split">
+        <div>
+          <h2 id="topicTitle">Chapter</h2>
+          <p class="muted" id="topicDesc"></p>
+        </div>
+
+        <div class="scorebox">
+          <div class="scoreline">
+            <span class="muted">Overall</span>
+            <strong id="overallScore">0 / 0</strong>
+          </div>
+          <div class="scoreline">
+            <span class="muted">This chapter</span>
+            <strong id="topicScore">0 / 0</strong>
+          </div>
+
+          <div class="timer">
+            <span class="muted">Time left</span>
+            <strong id="timeLeft">--</strong>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quiz -->
+      <div class="panel">
+        <h3>Multiple Choice</h3>
+
+        <div class="quiz">
+          <div class="question" id="questionText">Loading…</div>
+          <div class="choices" id="choices"></div>
+
+          <div class="quiz-actions">
+            <button class="btn" id="nextBtn">Next Question</button>
+            <div class="feedback" id="feedback" aria-live="polite"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Links -->
+      <div class="panel">
+        <h3>Practice Tests / Links</h3>
+        <ul class="links" id="practiceLinks"></ul>
+        <p class="muted small">
+          
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <script src="proknow.js"></script>
+</body>
+</html>
