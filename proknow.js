@@ -366,14 +366,84 @@ const DEFAULT_TOPICS = [
     practiceLinks: [
       // { label: "Practice Test", url: "https://..." },
     ],
-    questions: [
-      // Paste questions here in this format:
-      // {
-      //   q: "Question text",
-      //   choices: ["A", "B", "C", "D"],
-      //   correctIndex: 0 // 0=A,1=B,2=C,3=D
-      // },
-    ],
+    [
+    // --- 4/C LO 1: Global Expansion & Island Chains ---
+    {"q": "Over the past two decades, what has been the status of China’s People’s Liberation Army (PLA)?", "choices": ["It has remained a large but antiquated force", "It has transformed into a capable, modern military", "It has decreased in size to focus on domestic issues", "It has abandoned its naval modernization efforts"], "correctIndex": 1},
+    {"q": "According to the CRS report, how long has China’s naval modernization effort been underway?", "choices": ["Since 1949", "Since the early to mid-1990s", "Since 2013", "Since the start of the COVID-19 pandemic"], "correctIndex": 1},
+    {"q": "What geographical advantage does China enjoy in most plausible conflict scenarios?", "choices": ["Abundant natural resources", "Vast mountain ranges", "Proximity", "Island fortresses"], "correctIndex": 2},
+    {"q": "What is the primary goal of the Chinese Communist Party's (CCP) foreign policy regarding the Indo-Pacific?", "choices": ["To maintain U.S. presence", "To displace the U.S. and reorder the region in its favor", "To isolate itself from regional trade", "To promote democratic governance"], "correctIndex": 1},
+    {"q": "The Belt and Road Initiative (BRI), announced in 2013, is also known as what?", "choices": ["The Great Wall Project", "The Silk Shield", "One Belt, One Road (OBOR)", "The Maritime Meridian"], "correctIndex": 2},
+    {"q": "The BRI aims to promote the flow of which three things through investment projects?", "choices": ["Goods, investment, and people", "Information, military hardware, and food", "Culture, oil, and technology", "Labor, data, and weapons"], "correctIndex": 0},
+    {"q": "As of 2023, approximately how many countries have signed on to BRI projects?", "choices": ["50", "90", "147", "195"], "correctIndex": 2},
+    {"q": "What is the estimated cost range for completing the Belt and Road Initiative?", "choices": ["$100 billion to $500 billion", "$1 trillion to $8 trillion", "$10 trillion to $20 trillion", "$500 million to $1 billion"], "correctIndex": 1},
+    {"q": "In 2017, China opened its first overseas naval base in which strategically important location?", "choices": ["Burma", "Pakistan", "Djibouti", "Cambodia"], "correctIndex": 2},
+    {"q": "The naval base in Djibouti overlooks a chokepoint of a major what?", "choices": ["Fiber optic cable", "Mountain pass", "Sea line of communication (SLOC)", "Railway"], "correctIndex": 2},
+    {"q": "China has successfully built and began use of a pier off of which Cambodian naval base?", "choices": ["Ream Naval Base", "Sihanoukville Base", "Phnom Penh Harbor", "Angkor Base"], "correctIndex": 0},
+    {"q": "What name is given to the promotion of Chinese 5G and undersea cables globally?", "choices": ["The Digital Great Wall", "The 21st Century Digital Silk Road", "Huawei Global Link", "The Cyber Belt"], "correctIndex": 1},
+    {"q": "The extensive chains of Pacific islands ringing China are described by policy makers as the what?", "choices": ["The Dragon's Teeth", "The First and Second Island Chains", "The Wall of Sovereignty", "The Maritime Perimeter"], "correctIndex": 1},
+    {"q": "Chinese strategists assert that the U.S. uses island chains to ______ China.", "choices": ["Support", "Contain", "Modernize", "Democraticize"], "correctIndex": 1},
+    {"q": "The range of Chinese missiles and military operating patterns are linked to which geographic concept?", "choices": ["The Tibetan Plateau", "The First and Second Island Chains", "The Gobi Desert", "The Yellow River Basin"], "correctIndex": 1},
+
+    // --- 4/C LO 2: U.S. Policy Implications and Response ---
+    {"q": "How does Beijing view its relationship with Washington currently?", "choices": ["Increasingly cooperative", "Increasingly adversarial", "Economically dependent", "Strategically irrelevant"], "correctIndex": 1},
+    {"q": "China's goal to establish a 'world-class military' aims to make the PLA as strong as which military?", "choices": ["The Russian military", "The Japanese Self-Defense Forces", "The United States military", "The British Royal Navy"], "correctIndex": 2},
+    {"q": "The CCP's milestone to 'basically' achieve military modernization is set for which year?", "choices": ["2025", "2027", "2030", "2035"], "correctIndex": 1},
+    {"q": "China's goal for 'transforming into a dominant military' is set for which year?", "choices": ["2027", "2035", "2049", "2050"], "correctIndex": 2},
+    {"q": "The U.S. Department of Defense believes China's 2027 timeline includes being prepared to invade whom?", "choices": ["South Korea", "Japan", "Taiwan", "The Philippines"], "correctIndex": 2},
+    {"q": "Which commander stated in March 2024 that the PLA is meeting President Xi's directive to be ready to invade Taiwan by 2027?", "choices": ["CNO", "SECNAV", "Commander, U.S. Indo-Pacific Command", "Chairman of the JCS"], "correctIndex": 2},
+    {"q": "China seeks to develop a force capable of defeating third-party military intervention during a regional conflict over what?", "choices": ["Resource rights", "The South China Sea", "Taiwan unification", "Trade tariffs"], "correctIndex": 2},
+    {"q": "Which U.S. office stated that Chinese naval ship design quality is in many cases comparable to U.S. Navy ships?", "choices": ["The White House", "The Office of Naval Intelligence (ONI)", "The Coast Guard", "The State Department"], "correctIndex": 1},
+    {"q": "China is emphasizing which type of vehicle to counter ballistic missile defense systems?", "choices": ["Nuclear-powered drones", "Hypersonic glide vehicles (HGV)", "Stealth submarines", "Unmanned surface vessels"], "correctIndex": 1},
+    {"q": "In 2022, the Pentagon warned that China could triple its nuclear arsenal by which year?", "choices": ["2025", "2027", "2030", "2035"], "correctIndex": 3},
+    {"q": "Beijing seeks to keep a portion of its nuclear forces on what type of posture?", "choices": ["No first use", "Launch-on-warning", "Garrison-only", "Deterrence-only"], "correctIndex": 1},
+    {"q": "What national strategy does China use to lead the shift toward 'intelligentized' warfare?", "choices": ["Great Leap Forward", "Military-civil fusion", "The Zero-COVID policy", "Maritime Dominance"], "correctIndex": 1},
+    {"q": "The PLA seeks to utilize which technology to increase comprehensive national power?", "choices": ["Quantum computing only", "Artificial Intelligence (AI)", "Blockchain", "Steam propulsion"], "correctIndex": 1},
+    {"q": "In 2020, China conducted survey operations in whose exclusive economic zone?", "choices": ["Japan", "The Philippines", "Malaysia", "Vietnam"], "correctIndex": 2},
+    {"q": "China used maritime law enforcement ships to patrol near which islands to challenge Japan's claim?", "choices": ["Spratly Islands", "Paracel Islands", "Senkaku Islands", "Kuril Islands"], "correctIndex": 2},
+
+    // --- 4/C LO 3: Military Capabilities (Ships, Aircraft, Missiles) ---
+    {"q": "The PLA Navy (PLAN) is currently the largest navy in the world with over how many platforms?", "choices": ["296", "370", "435", "500"], "correctIndex": 1},
+    {"q": "How many ships is the PLAN battle force expected to grow to by 2030?", "choices": ["400", "415", "435", "500"], "correctIndex": 2},
+    {"q": "The PLAN is organized into how many fleets?", "choices": ["Two", "Three", "Four", "Five"], "correctIndex": 1},
+    {"q": "Which PLAN fleet is headquartered at Qingdao Naval Base?", "choices": ["North Sea Fleet", "East Sea Fleet", "South Sea Fleet", "Pacific Fleet"], "correctIndex": 0},
+    {"q": "Which PLAN fleet is headquartered at Ningbo Fleet Headquarters?", "choices": ["North Sea Fleet", "East Sea Fleet", "South Sea Fleet", "Indian Ocean Fleet"], "correctIndex": 1},
+    {"q": "Which PLAN fleet is headquartered at Yulin Naval Base?", "choices": ["North Sea Fleet", "East Sea Fleet", "South Sea Fleet", "Caspian Fleet"], "correctIndex": 2},
+    {"q": "Which ship is China's newest and most capable surface combatant, displacing more than U.S. Cruisers?", "choices": ["Luyang III Destroyer", "Renhai Class Cruiser (Type 055)", "Jin Class Submarine", "Liaoning Carrier"], "correctIndex": 1},
+    {"q": "How many VLS cells are on the Type 055 Renhai Class Cruiser?", "choices": ["64", "96", "112", "128"], "correctIndex": 2},
+    {"q": "Which ship class is informally referred to as the 'Chinese Aegis'?", "choices": ["Renhai Class", "Luyang III Class Destroyer", "Shang Class", "Yuan Class"], "correctIndex": 1},
+    {"q": "How many VLS cells are on the Luyang III Class Destroyer?", "choices": ["32", "64", "96", "112"], "correctIndex": 1},
+    {"q": "Which aircraft carrier was purchased from Ukraine in 1998 and achieved operational capability in 2016?", "choices": ["CV-16 Liaoning", "CV-17 Shandong", "Fujan", "Kiev"], "correctIndex": 0},
+    {"q": "The CV-16 Liaoning carrier uses which type of launch system?", "choices": ["Steam catapult", "Electromagnetic catapult", "Ski-jump catapult", "Vertical takeoff"], "correctIndex": 2},
+    {"q": "Which aircraft carrier was China's first domestically built carrier, reaching capability in 2019?", "choices": ["CV-16 Liaoning", "CV-17 Shandong", "Fujan", "Renhai"], "correctIndex": 1},
+    {"q": "How many aircraft can the CV-17 Shandong embark?", "choices": ["24", "30", "40", "60"], "correctIndex": 2},
+    {"q": "The third Chinese carrier, Fujan, is equipped with which launch technology?", "choices": ["Ski-ramp", "Electromagnetic catapults", "Rocket assist", "Hydraulic sling"], "correctIndex": 1},
+    {"q": "Which class of ballistic missile submarine (SSBN) is the Type 094?", "choices": ["Shang Class", "Yuan Class", "Jin Class", "Han Class"], "correctIndex": 2},
+    {"q": "How many JL-2 Submarine Launched Ballistic Missiles does a Jin Class submarine carry?", "choices": ["6", "12", "16", "24"], "correctIndex": 1},
+    {"q": "Which class of nuclear-powered attack submarine (SSN) is the Type 093?", "choices": ["Jin Class", "Shang Class", "Yuan Class", "Kilo Class"], "correctIndex": 1},
+    {"q": "The Shang Class SSN is confirmed to have VLS tubes for which anti-ship missile?", "choices": ["YJ-12", "YJ-18", "DF-21", "Tomahawk"], "correctIndex": 1},
+    {"q": "Which class is China's first AIP (air-independent propulsion) powered submarine?", "choices": ["Jin Class", "Shang Class", "Yuan Class (Type 039A)", "Ming Class"], "correctIndex": 2},
+    {"q": "Which heavy class strike fighter is the primary aircraft for conducting maritime intercepts of U.S. P-8 aircraft?", "choices": ["J-15 Flanker", "J-20 Stealth", "Su-30 Flanker", "MQ-9 Reaper"], "correctIndex": 2},
+    {"q": "Which aircraft is the carrier-based fighter in the PLA Air Force, first launched from a ski-jump in 2010?", "choices": ["J-10", "J-15 Flanker X2", "Su-35", "EP-3"], "correctIndex": 1},
+    {"q": "Which Chinese supersonic anti-ship cruise missile is capable of evasive maneuvers to avoid anti-missile threats?", "choices": ["YJ-12", "YJ-18", "DF-21D", "CSS-5"], "correctIndex": 0},
+    {"q": "The YJ-18 anti-ship cruise missile is believed to be similar to which Russian missile?", "choices": ["Kinzhal", "3M-54 Klub", "Strobile", "Sizzler"], "correctIndex": 1},
+    {"q": "Which missile is known as the 'Carrier Killer Missile'?", "choices": ["DF-17", "DF-21D", "DF-26", "YJ-12"], "correctIndex": 1},
+    {"q": "Which missile is known as the 'Guam Killer'?", "choices": ["DF-21D", "DF-26", "DF-15", "YJ-18"], "correctIndex": 1},
+    {"q": "What is the estimated range of the Dong-Feng 26 (DF-26) missile?", "choices": ["1,000 km", "2,500 km", "4,500 km", "10,000 km"], "correctIndex": 2},
+    {"q": "True or False: The DF-21D is the world's first land-based anti-ship ballistic missile (ASBM).", "choices": ["True", "False"], "correctIndex": 0},
+
+    // --- 4/C LO 4: Significant Recent Events ---
+    {"q": "In the 2001 Hainan Island Incident, a Chinese plane collided with which type of U.S. aircraft?", "choices": ["P-8 Poseidon", "EP-3 Aries U.S. surveillance plane", "F-18 Super Hornet", "C-2 Greyhound"], "correctIndex": 1},
+    {"q": "In 2005, China held its first joint military exercises with which country?", "choices": ["United States", "Japan", "Russia", "North Korea"], "correctIndex": 2},
+    {"q": "In January 2007, China carried out a missile test in space that shot down what?", "choices": ["A U.S. satellite", "A space station", "An old weather satellite", "A meteor"], "correctIndex": 2},
+    {"q": "In May 2012, Philippines and Chinese vessels confronted one another off which reef?", "choices": ["Scarborough Shoal", "Mischief Reef", "Subi Reef", "Fiery Cross"], "correctIndex": 0},
+    {"q": "China launched its first aircraft carrier, the Liaoning, in which year?", "choices": ["2001", "2012", "2016", "2018"], "correctIndex": 1},
+    {"q": "In October 2015, China expressed anger at a U.S. ship sailing by artificial reefs in which islands?", "choices": ["Senkaku Islands", "Spratly Islands", "Paracel Islands", "Hainan Islands"], "correctIndex": 1},
+    {"q": "In 2018, the PLAN deployed its largest ever flotilla to the South China Sea, including how many ships?", "choices": ["12", "24", "48", "70"], "correctIndex": 2},
+    {"q": "In May 2025, China deployed larger than usual fleets throughout the First Island Chain, reaching how many ships at times?", "choices": ["48", "Over 70", "100", "200"], "correctIndex": 1},
+    {"q": "Which U.S. Secretary of Defense is scheduled to visit Cambodia’s Ream Naval Base pier in 2025?", "choices": ["Lloyd Austin", "Pete Hegseth", "Mark Esper", "Jim Mattis"], "correctIndex": 1}
+    
+   
+  ],
   },
 
   {
