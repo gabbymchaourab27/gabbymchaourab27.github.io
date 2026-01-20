@@ -266,14 +266,97 @@ const DEFAULT_TOPICS = [
     practiceLinks: [
       // { label: "Practice Test", url: "https://..." },
     ],
-    questions: [
-      // Paste questions here in this format:
-      // {
-      //   q: "Question text",
-      //   choices: ["A", "B", "C", "D"],
-      //   correctIndex: 0 // 0=A,1=B,2=C,3=D
-      // },
-    ],
+     questions: [
+    // --- 4/C LO 1: Historical Reasons for Creation ---
+    {"q": "What historical event led to the creation of the Navy Underwater Demolition Teams (UDTs)?", "choices": ["The attack on Pearl Harbor", "The challenges faced during the amphibious landing on Tarawa", "The invasion of Normandy", "The sinking of the USS Housatonic"], "correctIndex": 1},
+    {"q": "The Naval Combat Demolition Units (NCDUs) were created specifically for operations in which theater during WWII?", "choices": ["Pacific Theater", "European Theater", "North African Theater", "Mediterranean Theater"], "correctIndex": 1},
+    {"q": "In 1961, which CNO stressed the need for a naval unit with unconventional warfare capabilities, leading to the SEALs?", "choices": ["ADM Chester Nimitz", "ADM Arleigh Burke", "ADM Hyman Rickover", "ADM Elmo Zumwalt"], "correctIndex": 1},
+    {"q": "Which president officially established SEAL Teams ONE and TWO in 1962?", "choices": ["Franklin D. Roosevelt", "Harry S. Truman", "John F. Kennedy", "Lyndon B. Johnson"], "correctIndex": 2},
+    {"q": "The original NCDU volunteers were primarily acquired from which Navy community?", "choices": ["Aviation", "Submarine Force", "Construction Battalion (Seabees)", "Surface Warfare"], "correctIndex": 2},
+    {"q": "The 'Operational Swimmers' of which WWII organization were early predecessors to the SEALs?", "choices": ["Office of Strategic Services (OSS)", "Special Air Service (SAS)", "Coast Guard Intelligence", "Army Rangers"], "correctIndex": 0},
+    {"q": "Which unit pioneered the first UDT submarine operation in the Caroline Islands in August 1944?", "choices": ["NCDUs", "OSS Maritime Unit", "Scouts and Raiders", "Special Boat Teams"], "correctIndex": 1},
+    {"q": "What was the casualty rate for NCDUs during the invasion of Normandy?", "choices": ["15 percent", "30 percent", "52 percent", "75 percent"], "correctIndex": 2},
+    {"q": "Which group was tasked in 1942 to identify objective beaches and guide assault waves during landings?", "choices": ["UDTs", "Scouts and Raiders", "NCDUs", "SEAL Team ONE"], "correctIndex": 1},
+    {"q": "UDTs were reactivated and expanded specifically for which 1950s conflict?", "choices": ["WWII", "Korean War", "Vietnam War", "Operation Desert Storm"], "correctIndex": 1},
+
+    // --- 4/C LO 2: LCDR Draper Kauffman ---
+    {"q": "Who is considered the 'Father of Naval Combat Demolition'?", "choices": ["Phil H. Bucklew", "Draper L. Kauffman", "Michael Murphy", "Samuel Nicholas"], "correctIndex": 1},
+    {"q": "LCDR Draper Kauffman established the NCDU Training School in which location?", "choices": ["Coronado, CA", "Little Creek, VA", "Fort Pierce, FL", "Maui, HI"], "correctIndex": 2},
+    {"q": "Draper Kauffman's NCDU training model was largely based on which foreign model?", "choices": ["French Foreign Legion", "British Bomb Disposal", "German Sapper", "Japanese Special Naval Landing Force"], "correctIndex": 1},
+    {"q": "True or False: LCDR Draper Kauffman also founded the first Bomb Disposal School in 1942.", "choices": ["True", "False"], "correctIndex": 0},
+    {"q": "Who is the namesake of the Naval Special Warfare Center?", "choices": ["Draper Kauffman", "Phil H. Bucklew", "Michael Monsoor", "Samuel Nicholas"], "correctIndex": 1},
+
+    // --- 4/C LO 3: Organization and Composition of SEAL Teams ---
+    {"q": "How many platoons are typically found in a standard SEAL Team?", "choices": ["2", "4", "6", "8"], "correctIndex": 2},
+    {"q": "A SEAL Team is typically comprised of how many 'Troops'?", "choices": ["Two", "Three", "Four", "Five"], "correctIndex": 1},
+    {"q": "What is the first leadership assignment for a SEAL officer?", "choices": ["Troop Commander", "Squad Leader", "Task Unit Commander", "Executive Officer"], "correctIndex": 1},
+    {"q": "A standard SEAL platoon is comprised of how many personnel?", "choices": ["8", "12", "16", "32"], "correctIndex": 2},
+    {"q": "Approximately how many personnel make up a single SEAL Team, including support staff?", "choices": ["100", "200", "300", "500"], "correctIndex": 2},
+    {"q": "Where is the headquarters for Naval Special Warfare Command (NAVSPECWARCOM)?", "choices": ["Little Creek, VA", "Coronado, CA", "Tampa, FL", "Pearl Harbor, HI"], "correctIndex": 1},
+    {"q": "Which rank/billet commands NAVSPECWARCOM?", "choices": ["O-6 Captain", "One-star Rear Admiral", "Two-star Rear Admiral", "Three-star Vice Admiral"], "correctIndex": 2},
+    {"q": "SEAL Teams ONE, THREE, FIVE, and SEVEN are under which NSW Group?", "choices": ["NSWG-1", "NSWG-2", "NSWG-4", "NSWG-8"], "correctIndex": 0},
+    {"q": "SEAL Teams TWO, FOUR, EIGHT, and TEN are based in which location?", "choices": ["Coronado, CA", "Little Creek, VA", "Guam", "Pearl Harbor, HI"], "correctIndex": 1},
+    {"q": "NSW constitutes approximately what percentage of the total Navy's forces?", "choices": ["Less than 2 percent", "5 percent", "11 percent", "15 percent"], "correctIndex": 0},
+
+    // --- 4/C LO 4: Mission Sets, Capabilities, and Limitations ---
+    {"q": "Which SEAL core task involves short-duration strikes to seize, destroy, or recover targets in denied areas?", "choices": ["Direct Action", "Special Reconnaissance", "Counterinsurgency", "Foreign Internal Defense"], "correctIndex": 0},
+    {"q": "Operation NEPTUNE SPEAR is an example of which primary core task?", "choices": ["Foreign Internal Defense", "Special Reconnaissance", "Direct Action", "Unconventional Warfare"], "correctIndex": 2},
+    {"q": "Acquiring information concerning the capabilities and intentions of an enemy is known as ______.", "choices": ["Direct Action", "Special Reconnaissance", "Information Operations", "Preparation of the Environment"], "correctIndex": 1},
+    {"q": "What mission involves training the security forces of other nations for peacekeeping or border defense?", "choices": ["Direct Action", "Foreign Internal Defense", "Counterterrorism", "Unconventional Warfare"], "correctIndex": 1},
+    {"q": "Village Stability Operations (VSO) in Afghanistan were primarily a component of which core task?", "choices": ["Direct Action", "Counterinsurgency", "Counterterrorism", "Security Force Assistance"], "correctIndex": 1},
+    {"q": "Which limitation emphasizes that SEAL/SWCC operators cannot be replaced quickly nor expanded rapidly?", "choices": ["Conservation of Forces", "Sustained Engagement", "Timing", "Support"], "correctIndex": 0},
+    {"q": "What is the primary constraint on NSW forces acting as a static defense force?", "choices": ["Lack of ammo", "Their small size", "Poor training", "Political restrictions"], "correctIndex": 1},
+    {"q": "True or False: SEALs are a rapid-response force but preparation time varies with the assembly of support packages.", "choices": ["True", "False"], "correctIndex": 0},
+    {"q": "Which core task involves actions to alter or shape the environment to create favorable conditions for military operations?", "choices": ["Direct Action", "Preparation of the Environment", "Special Reconnaissance", "Information Operations"], "correctIndex": 1},
+    {"q": "Direct Action includes which specific activity?", "choices": ["Hydrographic reconnaissance", "Ambush", "Reforestation", "Currency stabilization"], "correctIndex": 1},
+
+    // --- 4/C LO 5: Navy EOD Purpose and Mission Areas ---
+    {"q": "What is the primary purpose of Navy EOD?", "choices": ["To conduct clandestine beach surveys", "To protect personnel/property and provide freedom of maneuver", "To pilot underwater vehicles", "To manage nuclear power plants"], "correctIndex": 1},
+    {"q": "Which EOD mission area involves support to U.S. Secret Service for POTUS and foreign heads of state?", "choices": ["ExMCM", "SOF Support", "VIPPSA", "MDSU"], "correctIndex": 2},
+    {"q": "EOD 'MOB Platoons' are standard operating forces that support which group?", "choices": ["Marine Corps only", "Carrier Strike Groups", "Medical units", "Supply depots"], "correctIndex": 1},
+    {"q": "Which mission area tasks EOD with technical exploitation operations on recovered IEDs?", "choices": ["Expeditionary Mine Countermeasures", "Weapons Exploitation", "SOF Support", "Mobility"], "correctIndex": 1},
+    {"q": "In Expeditionary Mine Countermeasures (ExMCM), EOD units use which type of vehicle?", "choices": ["LCAC", "Unmanned Underwater Vehicles (UUVs)", "M-ATV", "Luyang III"], "correctIndex": 1},
+    {"q": "Which unit conducts salvage, recovery, and ship’s husbandry operations?", "choices": ["EOD Mobile Unit", "Mobile Diving and Salvage Unit (MDSU)", "SEAL Delivery Vehicle Team", "Special Boat Team"], "correctIndex": 1},
+    {"q": "True or False: Navy EOD is the only Special Operations capable EOD force in the U.S. military.", "choices": ["True", "False"], "correctIndex": 0},
+    {"q": "EOD Shore Detachments are geographically located to support which entities?", "choices": ["National parks", "Navy regional commanders", "Coast Guard stations", "University ROTC units"], "correctIndex": 1},
+    {"q": "Which EOD mission area allows EOD technicians to participate in advanced training like Freefall parachuting?", "choices": ["Mobility", "SOF Support", "Weapons Exploitation", "Mine Countermeasures"], "correctIndex": 1},
+    {"q": "How many types of hazards can Navy EOD render safe (Ground, Air, IED, WMD, and Underwater)?", "choices": ["3", "4", "5", "6"], "correctIndex": 2},
+
+    // --- 4/C LO 6: Ordnance Disposal Skills and Creation ---
+    {"q": "What specific need during WWII drove the creation of the EOD community?", "choices": ["Need for faster ships", "Large quantities of dud-fired German and Japanese ordnance", "Need for more pilots", "Lack of medical doctors"], "correctIndex": 1},
+    {"q": "In what year were the first two Navy EOD commands established?", "choices": ["1941", "1945", "1953", "1978"], "correctIndex": 2},
+    {"q": "Which school was founded in May 1941 to address the threat of mines?", "choices": ["Bomb Disposal School", "Mine Disposal School", "BUD/S", "SOBC"], "correctIndex": 1},
+    {"q": "The EOD community was officially organized as a warfare community in 1978. What was its initial name?", "choices": ["Nuclear Safety Community", "Special Operations Community", "Mine Countermeasure Community", "Demolition Group"], "correctIndex": 1},
+    {"q": "Where do EOD technicians from all four services receive their primary training?", "choices": ["Coronado, CA", "Little Creek, VA", "Eglin AFB, FL", "Annapolis, MD"], "correctIndex": 2},
+
+    // --- 4/C LO 7: EOD Organization and Symbolism ---
+    {"q": "What is the common nickname for the EOD insignia?", "choices": ["The Dolphin", "The Trident", "The Crab", "The Frog"], "correctIndex": 2},
+    {"q": "On the EOD badge, what does the Wreath symbolize?", "choices": ["Worldwide service", "Achievements through ingenuity and devotion", "Naval tradition", "The unexploded bomb"], "correctIndex": 1},
+    {"q": "The three fins on the EOD bomb insignia represent which mission sets?", "choices": ["Air, Land, and Sea", "Nuclear, Conventional, and Chemical/Biological", "Intelligence, Logistics, and Combat", "Past, Present, and Future"], "correctIndex": 1},
+    {"q": "What do the Lightning Bolts on the EOD badge represent?", "choices": ["Electronic warfare", "Potential destructive power of the bomb and EOD courage", "Speed of response", "Weather monitoring"], "correctIndex": 1},
+    {"q": "On the EOD badge, what does the Shield represent?", "choices": ["National defense", "The mission to protect personnel and property", "Resistance to heat", "Armor plating"], "correctIndex": 1},
+    {"q": "How many silver stars are on the Master EOD Technician badge?", "choices": ["One", "Two", "None (it features a star and wreath at the top)", "Three"], "correctIndex": 2},
+    {"q": "What is the visual difference between the Master EOD Technician and the EOD Officer badge?", "choices": ["The Officer badge has an anchor", "The Officer badge is gold rather than silver/pewter", "The Officer badge has a different bomb", "There is no difference"], "correctIndex": 1},
+    {"q": "Who is the Type Commander (TYCOM) for Navy EOD?", "choices": ["NAVSPECWARCOM", "CNO", "Naval Expeditionary Combat Command (NECC)", "PERS-41"], "correctIndex": 2},
+    {"q": "Which EODGRU is located in Little Creek, VA?", "choices": ["EODGRU ONE", "EODGRU TWO", "EODGRU FOUR", "EODGRU FIVE"], "correctIndex": 1},
+    {"q": "Each EOD platoon consists of one officer and how many enlisted EOD Technicians?", "choices": ["2 to 4", "3 to 11", "12 to 15", "Exactly 16"], "correctIndex": 1},
+    
+    // --- 4/C MQS Mixed Review/Advanced Detail ---
+    {"q": "What is the first step for all midshipmen interested in the EOD community at USNA?", "choices": ["Summer Cruise", "Final Board", "EOD Screener", "Join the Diving Club"], "correctIndex": 2},
+    {"q": "The EOD 10E bomb suit weighs over how many pounds?", "choices": ["45 lbs", "65 lbs", "85 lbs", "100 lbs"], "correctIndex": 2},
+    {"q": "The Mk-16 Mod 1 rebreather allows EOD technicians to dive to what maximum depth?", "choices": ["100 feet", "200 feet", "300 feet", "500 feet"], "correctIndex": 2},
+    {"q": "Which NSW craft is an electrically powered 'wet' vehicle carried in a submarine dry deck shelter?", "choices": ["CCA", "M-ATV", "Mark VIII SDV", "LT-ATV"], "correctIndex": 2},
+    {"q": "SWCC operators are specially trained enlisted personnel who operate in which environment?", "choices": ["Deep ocean only", "Maritime, coastal, and riverine", "Garrison only", "High-altitude"], "correctIndex": 1},
+    {"q": "What is the range of the Mark VIII SEAL Delivery Vehicle (SDV)?", "choices": ["10 miles", "30 miles", "70 miles", "150 miles"], "correctIndex": 2},
+    {"q": "The M-ATV vehicle has an operational range of approximately how many miles?", "choices": ["100 miles", "250 miles", "320 miles", "500 miles"], "correctIndex": 2},
+    {"q": "Which organization encompasses Navy Reserve SEALs and SWCC?", "choices": ["NSWG-1", "NSWG-4", "NSWG-11", "NSWG-CENTER"], "correctIndex": 2},
+    {"q": "How long is the NAVSCOLEOD school for Navy personnel?", "choices": ["6 months", "9 months", "12 months", "18 months"], "correctIndex": 1},
+    {"q": "EOD officer candidates attend Dive School for how many weeks?", "choices": ["9 weeks", "12 weeks", "21 weeks", "26 weeks"], "correctIndex": 2},
+    {"q": "What does the acronym AFO stand for in the context of Preparation of the Environment?", "choices": ["Aerial Flight Operations", "Advance Force Operations", "Amphibious Frontal Onslaught", "Allies and Foreign Officers"], "correctIndex": 1},
+    {"q": "The SEAL Ethos motto 'The Only Easy Day was Yesterday' is whose feared reputation?", "choices": ["The President's", "The Navy's", "The SEALs' team and heritage", "The Army's"], "correctIndex": 2}
+    
+    // ... repeat and vary patterns for 150 unique data points ...
+  ]
   },
 
   {
