@@ -366,7 +366,7 @@ const DEFAULT_TOPICS = [
     practiceLinks: [
       // { label: "Practice Test", url: "https://..." },
     ],
-    [
+    questions: [
     // --- 4/C LO 1: Global Expansion & Island Chains ---
     {"q": "Over the past two decades, what has been the status of China’s People’s Liberation Army (PLA)?", "choices": ["It has remained a large but antiquated force", "It has transformed into a capable, modern military", "It has decreased in size to focus on domestic issues", "It has abandoned its naval modernization efforts"], "correctIndex": 1},
     {"q": "According to the CRS report, how long has China’s naval modernization effort been underway?", "choices": ["Since 1949", "Since the early to mid-1990s", "Since 2013", "Since the start of the COVID-19 pandemic"], "correctIndex": 1},
@@ -454,13 +454,67 @@ const DEFAULT_TOPICS = [
       // { label: "Practice Test", url: "https://..." },
     ],
     questions: [
-      // Paste questions here in this format:
-      // {
-      //   q: "Question text",
-      //   choices: ["A", "B", "C", "D"],
-      //   correctIndex: 0 // 0=A,1=B,2=C,3=D
-      // },
-    ],
+    // --- 4/C LO 1: National Strategy & U.S. Relationship ---
+    {"q": "Russian President Putin returned to power in which year seeking to reassert Russia as a great power?", "choices": ["2008", "2010", "2012", "2014"], "correctIndex": 2},
+    {"q": "Russia is one of how many permanent members of the U.N. Security Council?", "choices": ["Three", "Five", "Seven", "Ten"], "correctIndex": 1},
+    {"q": "Russia was a member of which group of leading economies until its removal in 2014?", "choices": ["G20", "BRICS", "Group of Eight (G8)", "OPEC"], "correctIndex": 2},
+    {"q": "Which international group consists of Brazil, India, China, South Africa, and Russia?", "choices": ["NATO", "ASEAN", "BRICS", "EU"], "correctIndex": 2},
+    {"q": "Russia is the second largest major weapons exporter in the world. Who are its top three clients?", "choices": ["USA, UK, and France", "India, China, and Vietnam", "Iran, Syria, and Iraq", "Brazil, Mexico, and Canada"], "correctIndex": 1},
+    {"q": "The spirit of 'strategic partnership' in the early 1990s was forged between Bill Clinton and which Russian leader?", "choices": ["Vladimir Putin", "Dmitry Medvedev", "Boris Yeltsin", "Mikhail Gorbachev"], "correctIndex": 2},
+    {"q": "Bilateral ties deteriorated to their lowest point since the Cold War following which 2008 conflict?", "choices": ["Syrian Civil War", "Russian-Georgian conflict", "Annexation of Crimea", "War in Donbas"], "correctIndex": 1},
+    {"q": "The U.S.-Russia Bilateral Presidential Commission was suspended in 2014 due to Russian actions where?", "choices": ["Georgia", "Syria", "Ukraine", "Libya"], "correctIndex": 2},
+    {"q": "In 2017, the ODNI released a report stating with 'high confidence' that Putin ordered a campaign to influence which election?", "choices": ["2012 Russian Election", "2014 Ukrainian Election", "2016 U.S. Presidential Election", "2020 U.S. Presidential Election"], "correctIndex": 2},
+    {"q": "The U.S. responded with sanctions against Russia as recently as which date for continued election interference?", "choices": ["January 2017", "February 2022", "December 2024", "March 2025"], "correctIndex": 2},
+
+    // --- 4/C LO 2: Military Action and Modernization ---
+    {"q": "In which month and year did the full-scale Russian invasion of Ukraine begin?", "choices": ["March 2014", "September 2015", "February 2022", "January 2023"], "correctIndex": 2},
+    {"q": "Russia successfully seized Crimea in March 2014 using which combination of forces?", "choices": ["Special forces, elite airborne troops, and naval infantry", "Drafted infantry and heavy tanks", "Cyber attacks and private contractors only", "Long-range ballistic missiles"], "correctIndex": 0},
+    {"q": "What term is used to describe Russia's use of irregular forces backed by regular military and propaganda?", "choices": ["Guerrilla warfare", "Blitzkrieg", "Hybrid warfare", "Nuclear deterrence"], "correctIndex": 2},
+    {"q": "Russia intervened in the Syrian Civil War in September 2015 at the request of which regime?", "choices": ["The Taliban", "The al-Assad regime", "The Muslim Brotherhood", "The Free Syrian Army"], "correctIndex": 1},
+    {"q": "The Syrian campaign allowed Russia to display noteworthy capabilities, such as launching cruise missiles from which body of water?", "choices": ["The Baltic Sea", "The Caspian Sea", "The Sea of Japan", "The Gulf of Mexico"], "correctIndex": 1},
+    {"q": "Russia's Syria intervention highlighted their ability to effect 'area denial' using what?", "choices": ["Overlapping advanced missile systems", "Naval blockades", "Land mines", "Trench warfare"], "correctIndex": 0},
+    {"q": "In December 2014, Russia launched a new command focused on which strategic region?", "choices": ["Central Asia", "The Arctic Joint Strategic Command", "The Middle East Task Force", "The Pacific Reach Command"], "correctIndex": 1},
+    {"q": "Russia's latest State Armament Plan (SAP) covers which specific period?", "choices": ["2014-2020", "2018-2027", "2020-2030", "2025-2035"], "correctIndex": 1},
+    {"q": "The 2018-2027 SAP prioritizes improving mobility and command for which reaction forces?", "choices": ["Garrisoned infantry", "Spetsnaz, Naval Infantry, and Airborne troops", "Coastal defense only", "Nuclear technicians"], "correctIndex": 1},
+    {"q": "In November 2023, Russia announced its highest defense budget in history, increasing it by approximately how much?", "choices": ["10%", "25%", "50%", "100%"], "correctIndex": 1},
+
+    // --- 4/C LO 3: Military Capabilities ---
+    {"q": "What is the only aircraft carrier class in the Russian Navy?", "choices": ["Gerald R. Ford Class", "Admiral Kuznetsov Class", "Liaoning Class", "Sovremenny Class"], "correctIndex": 1},
+    {"q": "The Admiral Kuznetsov carrier sits at what length?", "choices": ["800 ft", "999 ft", "1,001 ft", "1,106 ft"], "correctIndex": 2},
+    {"q": "What is the primary mission of the Admiral Kuznetsov carrier?", "choices": ["Independent power projection", "To defend strategic submarines and other surface ships", "Logistics and refueling", "Clandestine reconnaissance"], "correctIndex": 1},
+    {"q": "Which Russian ship class is identified by two four-cell anti-ship missile launchers set at a 15-degree angle?", "choices": ["Admiral Grigorovich Class", "Sovremenny Class Destroyer", "Borei Class", "Akula Class"], "correctIndex": 1},
+    {"q": "What is the primary task of the Sovremenny Class Destroyer?", "choices": ["Strategic deterrence", "Anti-ship warfare", "Hospital ship duties", "Mine sweeping"], "correctIndex": 1},
+    {"q": "Which frigate class is recognizable by the black search radar behind the main superstructure?", "choices": ["Sovremenny Class", "Admiral Grigorovich Class", "Kuznetsov Class", "Akula Class"], "correctIndex": 1},
+    {"q": "The Admiral Grigorovich Class Frigate functions include air defense, ASW, and what other duty?", "choices": ["Escorting other warships", "Landing heavy tanks", "Cyber operations", "Deep sea mining"], "correctIndex": 0},
+    {"q": "Russia is replacing Soviet-era Delta submarines with which class of nuclear ballistic missile submarines?", "choices": ["Akula Class", "Borei Class", "Yasen Class", "Kilo Class"], "correctIndex": 1},
+    {"q": "The Borei Class falls under which submarine designation?", "choices": ["SSN", "SSGN", "SSBN (Strategic Missile Submarine)", "SSK"], "correctIndex": 2},
+    {"q": "Which class is Russia's newest and most advanced nuclear-powered cruise missile submarine (SSGN)?", "choices": ["Akula Class", "Borei Class", "Yasen Class", "Severodvinsk Class"], "correctIndex": 2},
+    {"q": "The Yasen Class is commonly known by NATO countries as what class?", "choices": ["Delta Class", "Severodvinsk Class", "Typhoon Class", "Oscar Class"], "correctIndex": 1},
+    {"q": "The Akula Class SSN incorporates what kind of hull system for more reserve buoyancy?", "choices": ["Single pressure hull", "Triple hull", "Double hull system", "Wooden hull"], "correctIndex": 2},
+    {"q": "What distinctive feature on top of the Akula's rudder houses its towed sonar array?", "choices": ["A flag mast", "A 'bulb' or 'can'", "A satellite dish", "A searchlight"], "correctIndex": 1},
+    {"q": "The Varshavyanka Class is an improved version of which existing submarine class?", "choices": ["Akula", "Severodvinsk", "Kilo", "Delta III"], "correctIndex": 2},
+    {"q": "What is the propulsion type for the Varshavyanka Class patrol submarine?", "choices": ["Nuclear", "Diesel-electric", "Steam", "Gas turbine"], "correctIndex": 1},
+    {"q": "Which Russian aircraft represents the pinnacle of fourth-generation jet fighter design?", "choices": ["Mig-29", "Su-33", "Su-35 Flanker-E", "Su-24 Fencer"], "correctIndex": 2},
+    {"q": "The Su-35 Flanker-E is distinguished by what physical flight characteristic?", "choices": ["Stealth technology", "Unrivaled maneuverability", "Vertical takeoff", "Supersonic cruise without afterburners"], "correctIndex": 1},
+    {"q": "Which fighter is the most common to conduct intercepts against U.S. reconnaissance aircraft in the Mediterranean?", "choices": ["Su-24", "Su-33", "Su-35 Flanker-E", "Mig-31"], "correctIndex": 2},
+    {"q": "The SS-N-26 Strobile is what type of missile?", "choices": ["Subsonic land attack", "Supersonic anti-ship cruise missile", "ICBM", "Surface-to-air"], "correctIndex": 1},
+    {"q": "What is a primary advantage of the SS-N-26 Strobile?", "choices": ["Manual control only", "Full autonomy ('fire and forget')", "Low speed for accuracy", "Launched only from trucks"], "correctIndex": 1},
+    {"q": "The SS-N-27 Sizzler includes variants for anti-ship, land attack, and what other mission?", "choices": ["Anti-submarine", "Space warfare", "Cyber attack", "Medical supply delivery"], "correctIndex": 0},
+    {"q": "True or False: The SS-N-27 Sizzler can be launched from a ship's Vertical Launch System (VLS).", "choices": ["True", "False"], "correctIndex": 0},
+
+    // --- 4/C LO 4: Notable U.S. and Russia Military Interactions ---
+    {"q": "In April 2016, Russian Su-24 jets performed low-altitude passes on which U.S. destroyer in the Baltic Sea?", "choices": ["USS Porter", "USS Carney", "USS Donald Cook", "USS Mason"], "correctIndex": 2},
+    {"q": "In February 2017, multiple Russian jets buzzed which U.S. Navy destroyer in the Black Sea?", "choices": ["USS Ross", "USS Porter (DDG 78)", "USS Arleigh Burke", "USS Winston Churchill"], "correctIndex": 1},
+    {"q": "In January 2018, a Russian Su-27 came within how many feet of a U.S. EP-3 Aries?", "choices": ["Five feet", "Fifty feet", "One hundred feet", "Five hundred feet"], "correctIndex": 0},
+    {"q": "In June 2019, which U.S. cruiser came close to a collision with the Russian destroyer Admiral Vinogradov?", "choices": ["USS Lake Erie", "USS Gettysburg", "USS Chancellorsville (CG 62)", "USS Monterey"], "correctIndex": 2},
+    {"q": "U.S. 7th Fleet stated the Admiral Vinogradov came within how many feet of the USS Chancellorsville?", "choices": ["10 to 20 feet", "50 to 100 feet", "200 to 300 feet", "One mile"], "correctIndex": 1},
+    {"q": "In October 2021, Russia claimed it prevented which U.S. ship from 'intruding' into territorial waters in the Sea of Japan?", "choices": ["USS Finn", "USS Chafee (DDG 90)", "USS Stout", "USS Mustin"], "correctIndex": 1},
+    {"q": "In March 2025, U.S. Navy jets intercepted which type of Russian spy plane near the USS Carl Vinson?", "choices": ["Su-35", "Il-38", "Tu-95", "Mig-29"], "correctIndex": 1},
+    {"q": "Ukraine's 'Operation Spider's Web' in June 2025 reportedly struck more than how many high-value Russian aircraft?", "choices": ["10", "20", "40", "100"], "correctIndex": 2},
+    {"q": "As of March 2025, the U.S. has committed over how much in aid to Ukraine?", "choices": ["$50 billion", "$100 billion", "$175 billion", "$500 billion"], "correctIndex": 2},
+    {"q": "The future of Russian bases in Syria currently rests with which interim Syrian President?", "choices": ["Bashar al-Assad", "Ahmed Sharaa", "Vladimir Putin", "Masoud Pezeshkian"], "correctIndex": 1}
+
+  ],
   },
 
   {
