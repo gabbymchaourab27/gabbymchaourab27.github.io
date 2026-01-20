@@ -355,7 +355,7 @@ const DEFAULT_TOPICS = [
     {"q": "What does the acronym AFO stand for in the context of Preparation of the Environment?", "choices": ["Aerial Flight Operations", "Advance Force Operations", "Amphibious Frontal Onslaught", "Allies and Foreign Officers"], "correctIndex": 1},
     {"q": "The SEAL Ethos motto 'The Only Easy Day was Yesterday' is whose feared reputation?", "choices": ["The President's", "The Navy's", "The SEALs' team and heritage", "The Army's"], "correctIndex": 2}
     
-    // ... repeat and vary patterns for 150 unique data points ...
+   
   ]
   },
 
