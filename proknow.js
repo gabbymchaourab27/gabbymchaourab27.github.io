@@ -562,13 +562,93 @@ const DEFAULT_TOPICS = [
       // { label: "Practice Test", url: "https://..." },
     ],
     questions: [
-      // Paste questions here in this format:
-      // {
-      //   q: "Question text",
-      //   choices: ["A", "B", "C", "D"],
-      //   correctIndex: 0 // 0=A,1=B,2=C,3=D
-      // },
-    ],
+    // --- North Korea: National Strategy & Nuclear Program (4/C LO 1) ---
+    {"q": "For how many years has the U.S. been committed to security on the Korean Peninsula?", "choices": ["Almost 25 years", "Almost 50 years", "Almost 70 years", "Exactly 100 years"], "correctIndex": 2},
+    {"q": "What is the primary objective of North Korea's national security strategy according to the DIA?", "choices": ["Regional economic integration", "Kim regime's long-term security", "Democratic reform", "Global trade expansion"], "correctIndex": 1},
+    {"q": "Under which leader has North Korea dramatically hastened nuclear weapon development?", "choices": ["Kim Il Sung", "Kim Jong Il", "Kim Jong Un", "Kim Yo Jong"], "correctIndex": 2},
+    {"q": "In his 2023 New Year's address, Kim Jong Un pledged to do what regarding his nuclear arsenal?", "choices": ["Dismantle it entirely", "Halt production for ten years", "Exponentially expand it", "Sell it to regional allies"], "correctIndex": 2},
+    {"q": "According to the IAEA, North Korea began restoring test tunnels at which site in March 2022?", "choices": ["Punggye-ri", "Pyongyang", "Yongbyon", "Hamhung"], "correctIndex": 0},
+    {"q": "How many ballistic missile test launches did North Korea conduct between 2022 and 2023?", "choices": ["Over 10", "Over 40", "Over 80", "Exactly 100"], "correctIndex": 2},
+    {"q": "How many ICBMs were included in North Korea's 2022-2023 test launches?", "choices": ["At least two", "At least five", "At least ten", "Zero"], "correctIndex": 1},
+    {"q": "The Intelligence Community assesses that North Korea is ______ to give up all of its nuclear weapons.", "choices": ["Likely", "Unlikely", "Guaranteed", "Eager"], "correctIndex": 1},
+    {"q": "What new capability was associated with the North Korean ICBM test in 2024?", "choices": ["Stealth technology", "MIRV (Multiple Independently Targetable Reentry Vehicle)", "Nuclear propulsion", "AI guidance"], "correctIndex": 1},
+    {"q": "Historically, North Korea has tied the idea of denuclearization to what?", "choices": ["Unconditional surrender", "Changes in economic sanctions and military activities", "Joining the European Union", "Abolishing the Kim family"], "correctIndex": 1},
+
+    // --- North Korea: Military Posture & Strengths (4/C LO 2) ---
+    {"q": "What is the collective name for the fighting forces of North Korea?", "choices": ["People's Guard", "Korean People's Army (KPA)", "Supreme Guard Command", "National Defense Force"], "correctIndex": 1},
+    {"q": "Approximately how many active-duty personnel are in the North Korean military?", "choices": ["500,000", "850,000", "Over 1.3 million", "Over 5 million"], "correctIndex": 2},
+    {"q": "How many paramilitary and reserve personnel does North Korea have?", "choices": ["1 million", "3 million", "5 million", "7 million"], "correctIndex": 3},
+    {"q": "North Korea's military equipment profile is primarily described as being from which era?", "choices": ["Western-modern", "Soviet-era", "Post-2020 Chinese", "WWII-era"], "correctIndex": 1},
+    {"q": "What is listed as a 'Core Strength' of the North Korean military regarding its neighbor?", "choices": ["Massed artillery threat to South Korea", "Technological superiority", "Naval carrier groups", "Air force quality"], "correctIndex": 0},
+    {"q": "Which of these is a major vulnerability of the North Korean military?", "choices": ["Lack of personnel", "Logistics for sustained combat operations", "Lack of defensive fortifications", "Insufficient underground facilities"], "correctIndex": 1},
+    {"q": "Which North Korean service is responsible for its strategic ballistic missiles?", "choices": ["Strategic Force", "Navy", "Air Force", "Ground Forces"], "correctIndex": 0},
+    {"q": "How many major branches of service make up the North Korean military?", "choices": ["Three", "Four", "Five", "Six"], "correctIndex": 2},
+    {"q": "North Korea can launch a high-intensity attack using thousands of which systems?", "choices": ["Cyber units", "Artillery and rocket systems", "Stealth bombers", "Nuclear submarines"], "correctIndex": 1},
+    {"q": "The North Korean military's modern doctrine is most likely rooted in which style?", "choices": ["U.S. Marine Corps style", "Old Soviet style", "Modern NATO style", "Guerrilla-only style"], "correctIndex": 1},
+
+    // --- North Korea: Engagement & Sanctions (4/C LO 2 Cont.) ---
+    {"q": "Which country accounts for over 80% of North Korea’s trade?", "choices": ["Russia", "Japan", "China", "United States"], "correctIndex": 2},
+    {"q": "In 2024, North Korea transferred weapons to which country for the war in Ukraine?", "choices": ["China", "Iran", "Russia", "Syria"], "correctIndex": 2},
+    {"q": "What method does North Korea use at sea to acquire refined petroleum while evading sanctions?", "choices": ["Submarine pipelines", "Ship-to-ship transfers", "Underwater storage", "Airborne refueling"], "correctIndex": 1},
+    {"q": "Which two countries blocked 2022 U.S.-led efforts at the UNSC to tighten petroleum sanctions?", "choices": ["China and Russia", "Iran and Syria", "UK and France", "Japan and South Korea"], "correctIndex": 0},
+    {"q": "What did the 2025 ATA report Moscow might be providing North Korea in exchange for weapons?", "choices": ["Food only", "Technical expertise", "Diplomatic immunity", "Territory in Ukraine"], "correctIndex": 1},
+
+    // --- North Korea: Notable Military Events (4/C LO 3) ---
+    {"q": "Which U.S. Navy vessel was captured by North Korea in January 1968?", "choices": ["USS Arizona", "USS Pueblo", "USS Constitution", "USS Enterprise"], "correctIndex": 1},
+    {"q": "In April 1969, North Korean Mig-21s shot down which U.S. aircraft?", "choices": ["P-8 Poseidon", "EC-121 reconnaissance aircraft", "EP-3 Aries", "F-14 Tomcat"], "correctIndex": 1},
+    {"q": "How many U.S. sailors perished in the 1969 shoot-down of the EC-121?", "choices": ["15 sailors", "24 sailors", "31 sailors", "83 sailors"], "correctIndex": 2},
+    {"q": "When did North Korea conduct its first nuclear weapons test?", "choices": ["1998", "2006", "2009", "2013"], "correctIndex": 1},
+    {"q": "In May 2025, which North Korean ship suffered significant damage during a failed launch?", "choices": ["Choe Hyon-class guided missile destroyer", "Sinpo-class submarine", "Taepodong carrier", "Kim-class frigate"], "correctIndex": 0},
+    {"q": "How many missile launches did North Korea execute in 2022, marking a new record?", "choices": ["26", "45", "69", "100"], "correctIndex": 2},
+    {"q": "In July 2017, a North Korean long-range missile test reportedly had the range to reach where?", "choices": ["Hawaii", "Alaska", "California", "New York City"], "correctIndex": 1},
+    {"q": "North Korea held the crew of the USS Pueblo hostage for how long?", "choices": ["11 days", "11 weeks", "11 months", "11 years"], "correctIndex": 2},
+    {"q": "The failed launching ceremony of the North Korean destroyer in 2025 was confirmed by what?", "choices": ["North Korean confession", "Satellite imagery", "U.S. Navy divers", "A defector report"], "correctIndex": 1},
+    {"q": "What happened to the stern of the North Korean destroyer during the failed 2025 launch?", "choices": ["It exploded", "It swung out into the harbor", "It was stolen", "It sank immediately"], "correctIndex": 1},
+
+    // --- Iran: Strategy & Proxies (4/C LO 4) ---
+    {"q": "What year did Iran introduce Islam as its form of governance?", "choices": ["1945", "1972", "1979", "2001"], "correctIndex": 2},
+    {"q": "What was the name of the 2015 agreement that restricted Iran's nuclear program?", "choices": ["SALT II", "Camp David Accord", "Joint Comprehensive Plan of Action (JCPOA)", "The Tehran Treaty"], "correctIndex": 2},
+    {"q": "In what month and year did the U.S. withdraw from the JCPOA?", "choices": ["January 2017", "May 2018", "December 2019", "June 2021"], "correctIndex": 1},
+    {"q": "Iran backs regional armed groups to erode U.S. influence. Which of these is NOT an Iranian proxy listed?", "choices": ["Hamas", "Hezbollah", "The Houthis", "The Taliban"], "correctIndex": 3},
+    {"q": "What June 2025 U.S. operation destroyed 3 Iranian nuclear sites effectively ending their program?", "choices": ["Operation Desert Shield", "Operation Midnight Hammer", "Operation Neptune Spear", "Operation Enduring Freedom"], "correctIndex": 1},
+    {"q": "How many aircraft were used in 'Operation Midnight Hammer' in 2025?", "choices": ["50", "75", "100", "Over 125"], "correctIndex": 3},
+    {"q": "Which stealth aircraft participated in the June 2025 strike on Iranian nuclear sites?", "choices": ["F-14 Tomcats", "F-18 Super Hornets", "B-2 Stealth Bombers", "A-10 Warthogs"], "correctIndex": 2},
+    {"q": "What specialized bomb was used by the U.S. in 2025 to target hardened Iranian sites?", "choices": ["GBU-57 Massive Ordnance Penetrator (MOP)", "Daisy Cutter", "Cluster Munition", "Hellfire Missile"], "correctIndex": 0},
+    {"q": "Which group committed the deadly October 7th, 2023 terrorist attack on Israel?", "choices": ["Hezbollah", "Al-Qaida", "Hamas", "The Houthis"], "correctIndex": 2},
+    {"q": "The Trump administration began air strikes on Houthi targets in Yemen in which month of 2025?", "choices": ["January", "March", "June", "August"], "correctIndex": 1},
+
+    // --- Iran: Military & Naval Structure (4/C LO 5) ---
+    {"q": "Iran has the largest inventory of what type of weapon in the Middle East?", "choices": ["Aircraft carriers", "Ballistic missiles", "Nuclear submarines", "Stealth fighters"], "correctIndex": 1},
+    {"q": "Iran's ballistic missiles can strike targets as far as how many kilometers?", "choices": ["500 km", "1,000 km", "2,000 km", "5,000 km"], "correctIndex": 2},
+    {"q": "Which Iranian force emphasizes asymmetric doctrine for security in the Persian Gulf?", "choices": ["IRIN", "Basij", "IRGCN", "Qods Force"], "correctIndex": 2},
+    {"q": "The IRIN (Islamic Republic of Iran Navy) focuses on which specific areas?", "choices": ["Persian Gulf only", "Caspian Sea, Gulf of Oman, and out-of-area", "Nile River", "Red Sea exclusively"], "correctIndex": 1},
+    {"q": "What does FIAC stand for in the context of Iranian naval threats?", "choices": ["Fast Inshore Attack Craft", "First Iranian Armed Combatant", "Fixed Infantry Air Command", "Fleet Interdiction Air Craft"], "correctIndex": 0},
+    {"q": "What tactic does the IRGCN use en masse with FIACs to harass warships?", "choices": ["Stealth approach", "Swarm tactics", "Sniper fire", "Aerial bombing"], "correctIndex": 1},
+    {"q": "Nearly what percentage of the world's natural gas shipped on tankers passes through the Strait of Hormuz?", "choices": ["10%", "20%", "30%", "50%"], "correctIndex": 2},
+    {"q": "Which air defense system did Russia deliver to Iran in 2016?", "choices": ["SA-2", "Patriot", "SA-20c", "Iron Dome"], "correctIndex": 2},
+    {"q": "What is a 'Key Vulnerability' of the Iranian military listed in the book?", "choices": ["Lack of personnel", "Dual military structure", "No ballistic missiles", "Lack of asymmetric doctrine"], "correctIndex": 1},
+    {"q": "How many active personnel are in the Iranian military (2026 outlook)?", "choices": ["100,000", "250,000", "400,000", "600,000"], "correctIndex": 3},
+
+    // --- Iran: Strait of Hormuz & Mining (4/C LO 5 Cont.) ---
+    {"q": "How wide is the deep-water shipping channel in the Strait of Hormuz?", "choices": ["2 miles wide", "10 miles wide", "20 miles wide", "50 miles wide"], "correctIndex": 0},
+    {"q": "How many barrels of oil pass through the Strait of Hormuz each day?", "choices": ["1 million", "5 million", "10 million", "Over 18 million"], "correctIndex": 3},
+    {"q": "Why is deploying mines from submarines considered 'tricky' for Iran in the Strait of Hormuz?", "choices": ["Strong currents", "Lack of submarines", "Shallow waters", "High temperatures"], "correctIndex": 2},
+    {"q": "How many U.S. minesweepers are active in Bahrain to counter the Iranian threat?", "choices": ["One", "Two", "Three", "Four"], "correctIndex": 3},
+    {"q": "Iran has military presence on islands near the Strait and along which coastline?", "choices": ["Southern coastline", "Northern coastline", "Western coastline", "Eastern coastline"], "correctIndex": 1},
+
+    // --- Iran: Recent Military Incidents (4/C LO 6) ---
+    {"q": "Describe the January 2016 incident near Farsi Island.", "choices": ["Iran sank a U.S. destroyer", "Ten U.S. Sailors were detained for 15 hours", "A U.S. helicopter was shot down", "The U.S. captured an Iranian base"], "correctIndex": 1},
+    {"q": "In June 2019, Iran shot down which U.S. unmanned aircraft?", "choices": ["MQ-9 Reaper", "MQ-4C Triton", "RQ-4A Global Hawk BAMS-D", "RQ-20 Puma"], "correctIndex": 2},
+    {"q": "What was 'Operation Martyr Soleimani' in January 2020?", "choices": ["A rescue mission", "A cyber attack", "A retaliatory ballistic missile strike on Iraqi bases", "The blockade of the Red Sea"], "correctIndex": 2},
+    {"q": "In January 2024, an Iranian-backed group killed how many U.S. service members in Jordan?", "choices": ["Zero", "One", "Three", "Ten"], "correctIndex": 2},
+    {"q": "In April 2024, Iran launched its first direct strike on Israel using over ______ drones and missiles.", "choices": ["50", "100", "200", "300"], "correctIndex": 3},
+    {"q": "What act did the IRGCN commit against a U.S. helicopter in September 2023?", "choices": ["Shot a missile", "Fired machine guns", "Shone a laser multiple times", "Ramming attempt"], "correctIndex": 2},
+    {"q": "Who is the first 'reformist' president of Iran in 20 years, seceding Raisi in 2024?", "choices": ["Masoud Pezeshkian", "Hassan Rouhani", "Qasem Soleimani", "Ayatollah Khamenei"], "correctIndex": 0},
+    {"q": "Iran's latest solid-fueled missile 'Qassem Basir' has what reported range?", "choices": ["100 miles", "745 miles", "1,500 miles", "3,000 miles"], "correctIndex": 1},
+    {"q": "In April 2024, how many incidents did the U.S. Navy engage in against Houthi attacks?", "choices": ["One", "Five", "Ten", "Seventeen"], "correctIndex": 3},
+    {"q": "How many Houthi launched missiles did the U.S. Navy defend against in April 2024?", "choices": ["One", "Five", "Twelve", "Twenty"], "correctIndex": 2}
+
+  ],
   },
 
   {
@@ -579,13 +659,89 @@ const DEFAULT_TOPICS = [
       // { label: "Practice Test", url: "https://..." },
     ],
     questions: [
-      // Paste questions here in this format:
-      // {
-      //   q: "Question text",
-      //   choices: ["A", "B", "C", "D"],
-      //   correctIndex: 0 // 0=A,1=B,2=C,3=D
-      // },
-    ],
+    // --- Cyber Threat Intelligence (4/C LO 1) ---
+    {"q": "The U.S. Intelligence Community expects cyber threats to national security to increasingly exploit which weakest components?", "choices": ["Supercomputers", "Mainframe servers", "Mobile devices and the Internet of Things (IoT)", "Undersea fiber optic cables"], "correctIndex": 2},
+    {"q": "Which two countries are identified as the primary state adversaries of the United States in cyberspace?", "choices": ["Iran and North Korea", "Russia and China", "China and Iran", "Russia and North Korea"], "correctIndex": 1},
+    {"q": "Adversaries target U.S. military personnel on which platforms to gain insight into force movement?", "choices": ["NIPRNET", "Direct mail", "Social media", "Encrypted forums"], "correctIndex": 2},
+    {"q": "Which Chinese organization operates a global campaign of cyber espionage for economic and strategic purposes?", "choices": ["The PLASSF", "The Ministry of State Security (MSS)", "Huawei Technologies", "The Central Military Commission"], "correctIndex": 1},
+    {"q": "In 2015, China reorganized its cyber, space, and electronic warfare units into which single force?", "choices": ["Network Systems Department", "Digital Silk Road Command", "Strategic Support Forces (PLASSF)", "Cyber Management Agency"], "correctIndex": 2},
+    {"q": "The Chinese MSS operation 'Cloud Hopper' specifically targeted which sector to gain sensitive government data?", "choices": ["IT service providers", "Electrical power grids", "Commercial banking", "Social media platforms"], "correctIndex": 0},
+    {"q": "Which Russian organization is primarily responsible for state-sponsored counterintelligence in cyberspace?", "choices": ["GRU", "SVR", "FSB", "KGB"], "correctIndex": 2},
+    {"q": "The Russian GRU is associated with disabling power grids in which two countries?", "choices": ["Estonia and Latvia", "Poland and Germany", "Georgia and Ukraine", "Syria and Iraq"], "correctIndex": 2},
+    {"q": "Which Russian intelligence service was identified as the lead element behind the 2020 SolarWinds attack?", "choices": ["FSB", "SVR", "GRU", "OPEC"], "correctIndex": 1},
+    {"q": "What is the primary objective of China's 'Digital Silk Road'?", "choices": ["Providing free internet to allies", "Gaining long-term access to global IT networks for future operations", "Selling low-cost consumer electronics", "Establishing a global satellite TV network"], "correctIndex": 1},
+
+    // --- Space Domain Definition & Operations (4/C LO 2-4) ---
+    {"q": "The space domain in the USSPACECOM area of responsibility begins at what minimum altitude?", "choices": ["50 kilometers", "100 kilometers", "150 nautical miles", "Any altitude where birds cannot fly"], "correctIndex": 1},
+    {"q": "Which space mission is defined as having predictive knowledge and characterization of space objects and the operating environment?", "choices": ["Space Control", "Spacelift", "Space domain awareness (SDA)", "Missile Warning"], "correctIndex": 2},
+    {"q": "Military users depend on Positioning, Navigation, and Timing (PNT) for which mission-essential requirement?", "choices": ["Beyond line-of-sight connectivity", "Precise geo-location and time reference services", "Predicting solar radiation levels", "Monitoring terrestrial weather"], "correctIndex": 1},
+    {"q": "Which mission uses Overhead Persistent Infrared (OPIR) and ground-based radars to notify leaders of attacks?", "choices": ["Environmental Monitoring", "Spacelift", "Missile Warning", "Nuclear Detonation Detection"], "correctIndex": 2},
+    {"q": "What is a primary operational benefit of access to space for a combatant commander?", "choices": ["Immunity to electronic jamming", "Unlimited bandwidth for all users", "Global perspective and overflight", "Low latency compared to terrestrial fiber"], "correctIndex": 2},
+    {"q": "Space control includes both offensive and defensive operations to ensure what in space?", "choices": ["Commercial profit", "Freedom of action", "Total secrecy", "Absolute satellite density"], "correctIndex": 1},
+    {"q": "Which space mission is the ability to deliver payloads like satellites into orbit?", "choices": ["SATOPS", "Spacelift", "Space Control", "SDA"], "correctIndex": 1},
+    {"q": "Environmental Monitoring in space provides support to joint operations by giving the JFC awareness of what?", "choices": ["The adversary's base locations", "The Operational Environment (OE)", "Satellite fuel levels", "Launch vehicle costs"], "correctIndex": 1},
+
+    // --- Orbit Types & Characteristics (4/C LO 5) ---
+    {"q": "Which type of orbit is roughly 23,000 miles above Earth and provides continuous coverage over a specific area?", "choices": ["Low Earth Orbit (LEO)", "Medium Earth Orbit (MEO)", "Geosynchronous Earth Orbit (GEO)", "Highly Elliptical Orbit (HEO)"], "correctIndex": 2},
+    {"q": "Which orbit is preferred for PNT and GPS satellites due to stable orbit and lower latency than GEO?", "choices": ["Low Earth Orbit", "Medium Earth Orbit (MEO)", "Geosynchronous Orbit", "Highly Elliptical Orbit"], "correctIndex": 1},
+    {"q": "What type of orbit provides high resolution and signal strength because it is closest to Earth (up to ~1,000 miles)?", "choices": ["Low Earth Orbit (LEO)", "MEO", "GEO", "HEO"], "correctIndex": 0},
+    {"q": "A long ellipse orbit used for communication over high North or South latitudes is known as what?", "choices": ["LEO", "MEO", "GEO", "Highly Elliptical Orbit (HEO)"], "correctIndex": 3},
+    {"q": "What is a primary disadvantage of Geosynchronous Earth Orbit (GEO)?", "choices": ["Small coverage area", "High signal latency and ease of jamming", "Short dwell time", "Unstable orbital mechanics"], "correctIndex": 1},
+
+    // --- Chinese and Russian Space Threats (4/C LO 6) ---
+    {"q": "The PLA Strategic Support Force (SSF) Network Systems Department is responsible for cyberwarfare and which other mission?", "choices": ["Amphibious assault", "Nuclear launch", "Psychological warfare", "Undersea exploration"], "correctIndex": 2},
+    {"q": "What is the name of the Chinese satellite navigation system comprised of 35 satellites?", "choices": ["GLONASS", "Galileo", "Beidou Navigation Satellite System (BDS)", "Yaogan"], "correctIndex": 2},
+    {"q": "Which Chinese satellite platform is believed to be operated for military intelligence-gathering?", "choices": ["Tiangong", "Yaogan", "GLONASS", "Nudol"], "correctIndex": 1},
+    {"q": "The Russian PL-19 Nudol system is a counterspace weapon primarily focused on which mission?", "choices": ["GPS Jamming", "Anti-satellite (ASAT)", "Meteorological monitoring", "Missile refueling"], "correctIndex": 1},
+    {"q": "What is the name of the Russian global navigation satellite system that consists of 24+ satellites in MEO?", "choices": ["Yaogan", "Tiangong", "GLONASS", "Starlink"], "correctIndex": 2},
+    {"q": "Which Chinese lunar mission returned a sample of lunar regolith to Earth in December 2020?", "choices": ["Chang'e 5", "Tiangong 1", "BDS 3", "Jianbing 4"], "correctIndex": 0},
+
+    // --- Terrorism and Transnational Threats (4/C LO 7-8) ---
+    {"q": "Which organization maintains relevance by overseeing at least 19 branches and networks in Africa, Asia, and Europe?", "choices": ["Al-Qaida", "ISIS", "The Taliban", "Hezbollah"], "correctIndex": 1},
+    {"q": "Which terrorist leader's 2013 guidelines intended to 'exhaust America and bleed her to death'?", "choices": ["Osama bin Laden", "Abu Bakr al-Baghdadi", "Ayman al-Zawahiri", "Qasem Soleimani"], "correctIndex": 2},
+    {"q": "ISIS advocates for the immediate creation of a ______ and implementation of its ideology without compromise.", "choices": ["Democracy", "Caliphate", "Coalition", "Trade zone"], "correctIndex": 1},
+    {"q": "Which group is more willing to compromise with local groups over ideology than its rival, ISIS?", "choices": ["Hamas", "Hezbollah", "Al-Qaida", "Al-Shabaab"], "correctIndex": 2},
+    {"q": "By the end of 2024, the number of people living in internal displacement worldwide reached a record high of what?", "choices": ["50.1 million", "73.5 million", "100 million", "183.4 million"], "correctIndex": 3},
+    {"q": "The wars in which two locations triggered approximately 6.9 million total displacements in 2024?", "choices": ["Syria and Libya", "Afghanistan and Yemen", "Ukraine and Gaza", "Iraq and Mali"], "correctIndex": 2},
+    {"q": "In 2024, how many countries had more than 3 million internally displaced people (IDPs) as a result of conflict?", "choices": ["Two", "Five", "Ten", "Twenty"], "correctIndex": 2}
+
+    {"q": "What is the official assessed primary objective of North Korea's national security strategy?", "choices": ["Global economic expansion", "Ensuring the Kim regime's long-term security", "Establishing a democratic peninsula", "Developing a commercial space program"], "correctIndex": 1},
+        {"q": "The intelligence community assesses that North Korea is ______ to give up all of its nuclear weapons.", "choices": ["Likely", "Eager", "Unlikely", "Guaranteed"], "correctIndex": 2},
+        {"q": "How many ballistic missile test launches did North Korea conduct between 2022 and 2023?", "choices": ["Over 20", "Over 50", "Over 80", "Exactly 100"], "correctIndex": 2},
+        {"q": "In his 2023 New Year's address, Kim Jong Un reversed previous pledges to call for a mass production of what?", "choices": ["Naval destroyers", "Tactical nuclear weapons", "Cyber warfare code", "Submarine-launched drones"], "correctIndex": 1},
+        {"q": "According to the IAEA, North Korea began restoring test tunnels at which site in March 2022?", "choices": ["Punggye-ri", "Pyongyang", "Yongbyon", "Hamhung"], "correctIndex": 0},
+        
+        // --- North Korea Military Posture (4/C LO 2) ---
+        {"q": "Which of these is listed as a 'Core Strength' of the North Korean military?", "choices": ["Stealth technology", "Massed artillery threat to South Korea", "Advanced logistics systems", "A numerically superior navy"], "correctIndex": 1},
+        {"q": "North Korea is described as one of the most ______ countries in the world.", "choices": ["Democratic", "Militarized", "Technologically advanced", "Globalized"], "correctIndex": 1},
+        {"q": "What is a major vulnerability of the North Korean military identified in the Pro-Book?", "choices": ["Lack of artillery", "Logistics for sustained combat operations", "Lack of underground facilities", "Insufficient defensive fortifications"], "correctIndex": 1},
+        {"q": "Which North Korean service is specifically responsible for ballistic missiles?", "choices": ["Air Force", "Navy", "Strategic Force", "Ground Forces"], "correctIndex": 2},
+        
+        // --- North Korea Notable Events (4/C LO 3) ---
+        {"q": "Which U.S. Navy intelligence vessel captured in 1968 remains in North Korea's possession today?", "choices": ["USS Arizona", "USS Pueblo", "USS Constitution", "USS Enterprise"], "correctIndex": 1},
+        {"q": "In May 2025, which North Korean ship suffered major damage during a failed launch attempt?", "choices": ["Choe Hyon-class guided missile destroyer", "Sinpo-class submarine", "Taepodong carrier", "Kim-class frigate"], "correctIndex": 0},
+        {"q": "How many U.S. sailors perished when North Korea shot down an EC-121 in 1969?", "choices": ["15 sailors", "24 sailors", "31 sailors", "83 sailors"], "correctIndex": 2},
+        {"q": "North Korea set a record in 2022 by executing a total of how many missile launches?", "choices": ["26", "45", "69", "80"], "correctIndex": 2},
+
+        // --- Iran Strategy & Proxies (4/C LO 4) ---
+        {"q": "Iran seeks to erode U.S. influence in the Middle East by backing which of these groups?", "choices": ["Hamas, Hezbollah, and the Houthis", "The Taliban and Al-Qaida", "ISIS and the Muslim Brotherhood", "The Free Syrian Army"], "correctIndex": 0},
+        {"q": "What was the name of the 2015 agreement that restricted Iran's nuclear program?", "choices": ["SALT II", "Joint Comprehensive Plan of Action (JCPOA)", "Camp David Accords", "The Tehran Treaty"], "correctIndex": 1},
+        {"q": "Which June 2025 U.S. operation destroyed 3 Iranian nuclear sites using over 125 aircraft?", "choices": ["Operation Desert Shield", "Operation Midnight Hammer", "Operation Neptune Spear", "Operation Enduring Freedom"], "correctIndex": 1},
+        {"q": "Iranian support for which group enables attacks against shipping near the Bab el Mandeb Strait?", "choices": ["Hezbollah", "Hamas", "The Houthis", "Basij"], "correctIndex": 2},
+
+        // --- Iran Military Capabilities (4/C LO 5) ---
+        {"q": "Which Iranian naval force emphasizes an asymmetric doctrine and operates in the Persian Gulf?", "choices": ["IRIN", "IRGCN", "Basij", "Qods Force"], "correctIndex": 1},
+        {"q": "Iran has the largest inventory of what type of weapon in the Middle East?", "choices": ["Aircraft carriers", "Ballistic missiles", "Nuclear submarines", "Stealth fighters"], "correctIndex": 1},
+        {"q": "What does FIAC stand for in the context of Iranian naval threats?", "choices": ["Fast Inshore Attack Craft", "First Iranian Air Combat", "Fixed Inshore Army Command", "Fleet Interdiction Air Craft"], "correctIndex": 0},
+        {"q": "Nearly what percentage of the world's natural gas shipped on tankers passes through the Strait of Hormuz?", "choices": ["10%", "20%", "30%", "50%"], "correctIndex": 2},
+        {"q": "The Shahab-3 is a road-mobile missile with a maximum range of approximately how many miles?", "choices": ["500 miles", "1,242 miles", "3,000 miles", "5,000 miles"], "correctIndex": 1},
+
+        // --- Iran Recent Incidents (4/C LO 6) ---
+        {"q": "In June 2019, Iran shot down which U.S. unmanned aircraft in international airspace?", "choices": ["MQ-9 Reaper", "RQ-4A Global Hawk BAMS-D", "MQ-4C Triton", "RQ-20 Puma"], "correctIndex": 1},
+        {"q": "The U.S. drone strike that killed IRGC-QF Commander Qasem Soleimani occurred in which year?", "choices": ["2018", "2019", "2020", "2021"], "correctIndex": 2},
+        {"q": "In April 2024, Iran launched its first-ever direct military strike against Israel using over how many drones and missiles?", "choices": ["50", "100", "200", "300"], "correctIndex": 3},
+        {"q": "In September 2023, IRGCN vessels committed which unsafe act against a U.S. helicopter?", "choices": ["Ramming attempt", "Shone a laser multiple times", "Fired machine guns", "Launched a drone"], "correctIndex": 1}
+  ],
   }
 ];
 
