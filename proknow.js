@@ -441,7 +441,44 @@ const DEFAULT_TOPICS = [
     {"q": "In 2018, the PLAN deployed its largest ever flotilla to the South China Sea, including how many ships?", "choices": ["12", "24", "48", "70"], "correctIndex": 2},
     {"q": "In May 2025, China deployed larger than usual fleets throughout the First Island Chain, reaching how many ships at times?", "choices": ["48", "Over 70", "100", "200"], "correctIndex": 1},
     {"q": "Which U.S. Secretary of Defense is scheduled to visit Cambodia’s Ream Naval Base pier in 2025?", "choices": ["Lloyd Austin", "Pete Hegseth", "Mark Esper", "Jim Mattis"], "correctIndex": 1}
-    
+   {"q": "China's 'military-civil fusion' strategy aims to lead a shift toward what specific type of warfare?", "choices": ["Guerrilla warfare", "Intelligentized warfare", "Trench warfare", "Nuclear-only warfare"], "correctIndex": 1}, [cite: 1015]
+      {"q": "Which organization manages China's space program?", "choices": ["Ministry of Commerce", "The People's Liberation Army (PLA)", "The Chinese Academy of Sciences", "China Telecom"], "correctIndex": 1}, [cite: 1014]
+      {"q": "What name is given to the barrier benchmarks marking the extent of a country’s influence in the Indo-Pacific?", "choices": ["The Bamboo Curtain", "The First and Second Island Chains", "The Great Maritime Wall", "The Dragon's Perimeter"], "correctIndex": 1}, [cite: 1012]
+      {"q": "China test-fired multiple ballistic missiles in 2020 that landed near which administrative areas in the South China Sea?", "choices": ["Hainan and the Paracel Islands", "Taiwan and Okinawa", "The Philippines and Guam", "Malacca and Singapore"], "correctIndex": 0}, [cite: 1013]
+      {"q": "How many countries had signed on to Belt and Road Initiative (BRI) projects as of 2023?", "choices": ["50", "100", "147", "195"], "correctIndex": 2}, [cite: 1010]
+
+      // --- Military Milestones & Modernization ---
+      {"q": "What is the primary objective of China’s 2027 military milestone?", "choices": ["Total global dominance", "Complete economic isolation", "To develop key capabilities and better posture for conflict", "To dismantle all nuclear warheads"], "correctIndex": 2}, [cite: 1014]
+      {"q": "By which year does China aim to achieve a 'world-class military'?", "choices": ["2027", "2035", "2049", "2050"], "correctIndex": 2}, [cite: 1013, 1014]
+      {"q": "Which US Navy Admiral stated in March 2024 that the PLA is meeting the directive to be ready to invade Taiwan by 2027?", "choices": ["Admiral Nimitz", "Admiral Rickover", "Admiral Aquilino", "Admiral Richardson"], "correctIndex": 2}, [cite: 1014]
+      {"q": "According to 2022 reports, the Pentagon warned China could triple its nuclear arsenal by which year?", "choices": ["2025", "2030", "2035", "2049"], "correctIndex": 2}, [cite: 1014]
+      {"q": "The PLA seeks to accelerate its transition to 'basically' achieve military modernization by which year?", "choices": ["2025", "2027", "2030", "2040"], "correctIndex": 1}, [cite: 1013]
+
+      // --- Major Naval Units (PLAN) ---
+      {"q": "Which PLAN fleet is headquartered at Ningbo Fleet Headquarters?", "choices": ["North Sea Fleet", "East Sea Fleet", "South Sea Fleet", "Yellow Sea Fleet"], "correctIndex": 1}, [cite: 1015]
+      {"q": "The Type 055 Destroyer is known by which NATO classification?", "choices": ["Luyang III Class", "Renhai Class Cruiser", "Jin Class", "Shang Class"], "correctIndex": 1}, [cite: 1018]
+      {"q": "What is the specific VLS cell count of the Renhai Class Cruiser?", "choices": ["64 cells", "96 cells", "112 cells", "128 cells"], "correctIndex": 2}, [cite: 1018]
+      {"q": "Which ship class is informally referred to as the 'Chinese Aegis'?", "choices": ["Renhai Class", "Luyang III Class Destroyer", "Jin Class", "Shandong Class"], "correctIndex": 1}, [cite: 1018]
+      {"q": "Which aircraft carrier was China's first domestically built ship?", "choices": ["CV-16 Liaoning", "CV-17 Shandong", "Fujan", "Renhai"], "correctIndex": 1}, [cite: 1019]
+      {"q": "What launch technology reportedly equips the third Chinese carrier, Fujan?", "choices": ["Ski-jump ramp", "Steam catapults", "Electromagnetic catapults", "Vertical takeoff pods"], "correctIndex": 2}, [cite: 1019]
+      {"q": "Which aircraft carrier was purchased from Ukraine in 1998?", "choices": ["CV-16 Liaoning", "CV-17 Shandong", "Fujan", "Minsk"], "correctIndex": 0}, [cite: 1019]
+      {"q": "The Jin Class Strategic Missile Submarine (Type 094) carries how many JL-2 ballistic missiles?", "choices": ["6", "12", "16", "24"], "correctIndex": 1}, [cite: 1020]
+      {"q": "What is the NATO reporting name for the Type 093 nuclear-powered attack submarine?", "choices": ["Jin Class", "Shang Class", "Yuan Class", "Han Class"], "correctIndex": 1}, [cite: 1020]
+      {"q": "Which submarine class is China’s first AIP (air-independent propulsion) powered vessel?", "choices": ["Shang Class", "Yuan Class (Type 039A)", "Jin Class", "Ming Class"], "correctIndex": 1}, [cite: 1021]
+
+      // --- Aircraft & Missiles ---
+      {"q": "Which aircraft is considered the primary interceptor of U.S. reconnaissance planes like the P-8 in the South China Sea?", "choices": ["J-15 Flanker", "Su-30 Flanker", "J-20 Stealth", "MQ-9 Reaper"], "correctIndex": 1}, [cite: 1021]
+      {"q": "The J-15 Flanker performed its first successful takeoff from which carrier in 2012?", "choices": ["Shandong", "Liaoning", "Fujan", "Enterprise"], "correctIndex": 1}, [cite: 1021]
+      {"q": "Which missile is known as the 'Carrier Killer'?", "choices": ["YJ-12", "YJ-18", "Dong-Feng 21D", "Dong-Feng 26"], "correctIndex": 2}, [cite: 1022]
+      {"q": "Which missile is known as the 'Guam Killer'?", "choices": ["YJ-18", "DF-21D", "DF-26", "CSS-5"], "correctIndex": 2}, [cite: 1022]
+      {"q": "What is the estimated range of the Dong-Feng 26 intermediate-range ballistic missile?", "choices": ["1,500 km", "2,500 km", "4,500 km", "10,000 km"], "correctIndex": 2}, [cite: 1022]
+      {"q": "The YJ-12 anti-ship cruise missile allows short-range defenses only how many seconds to engage before impact?", "choices": ["15 seconds", "30 seconds", "45 seconds", "90 seconds"], "correctIndex": 2}, [cite: 1022]
+
+      // --- Recent Incidents ---
+      {"q": "During the 2001 Hainan Island Incident, a Chinese plane collided with which type of U.S. surveillance plane?", "choices": ["P-8 Poseidon", "P-3 Orion", "EP-3 Aries", "Global Hawk"], "correctIndex": 2}, [cite: 1022]
+      {"q": "In May 2025, how many PLAN ships were deployed at once throughout the First Island Chain in a major show of force?", "choices": ["Over 30", "Over 50", "More than 70", "Exactly 100"], "correctIndex": 2}, [cite: 1023]
+      {"q": "Where did China and Russia hold their first joint military exercises in 2005?", "choices": ["South China Sea", "Baltic Sea", "Peace Mission", "Gulf of Aden"], "correctIndex": 2}, [cite: 1022]
+      {"q": "Which reefs was China building upon in the South China Sea in October 2015 when U.S. ships sailed nearby?", "choices": ["Senkaku Islands", "Spratly Islands", "Falkland Islands", "Midway Atoll"], "correctIndex": 1} [cite: 1023]
    
   ],
   },
