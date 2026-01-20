@@ -356,7 +356,7 @@ const DEFAULT_TOPICS = [
     {"q": "The SEAL Ethos motto 'The Only Easy Day was Yesterday' is whose feared reputation?", "choices": ["The President's", "The Navy's", "The SEALs' team and heritage", "The Army's"], "correctIndex": 2}
     
    
-  ]
+  ],
   },
 
   {
