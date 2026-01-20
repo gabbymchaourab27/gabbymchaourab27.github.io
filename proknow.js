@@ -320,7 +320,7 @@ const DEFAULT_TOPICS = [
     {"q": "True or False: Navy EOD is the only Special Operations capable EOD force in the U.S. military.", "choices": ["True", "False"], "correctIndex": 0},
     {"q": "EOD Shore Detachments are geographically located to support which entities?", "choices": ["National parks", "Navy regional commanders", "Coast Guard stations", "University ROTC units"], "correctIndex": 1},
     {"q": "Which EOD mission area allows EOD technicians to participate in advanced training like Freefall parachuting?", "choices": ["Mobility", "SOF Support", "Weapons Exploitation", "Mine Countermeasures"], "correctIndex": 1},
-    {"q": "How many types of hazards can Navy EOD render safe (Ground, Air, IED, WMD, and Underwater)?", "choices": ["3", "4", "5", "6"], "correctIndex": 2},
+    {"q": "How many types of hazards can Navy EOD render safe?", "choices": ["3", "4", "5", "6"], "correctIndex": 2},
 
     // --- 4/C LO 6: Ordnance Disposal Skills and Creation ---
     {"q": "What specific need during WWII drove the creation of the EOD community?", "choices": ["Need for faster ships", "Large quantities of dud-fired German and Japanese ordnance", "Need for more pilots", "Lack of medical doctors"], "correctIndex": 1},
