@@ -884,16 +884,14 @@ function nextQuestion() {
 }
 
 function disableChoices() {
- // Option A — modern, simple
+ 
    choicesEl.querySelectorAll("button.choice").forEach(b => b.disabled = true);
 
-// Option B — defensive (works in older browsers)
-   Array.from(choicesEl.querySelectorAll("button.choice")).forEach(b => b.disabled = true);
 
 }
 
 function markCorrectWrong(selectedIndex) {
-  const buttons = [...choicesEl.querySelectorAll("button.choice")];
+  const buttons = Array.from(choicesEl.querySelectorAll("button.choice"));
   buttons.forEach((b, i) => {
     if (i === activeQuestion.correctIndex) b.classList.add("correct");
     if (i === selectedIndex && selectedIndex !== activeQuestion.correctIndex) b.classList.add("wrong");
