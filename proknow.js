@@ -884,7 +884,12 @@ function nextQuestion() {
 }
 
 function disableChoices() {
-  [...choicesEl.querySelectorAll("button.choice")].forEach((b) => (b.disabled = true));
+ // Option A — modern, simple
+   choicesEl.querySelectorAll("button.choice").forEach(b => b.disabled = true);
+
+// Option B — defensive (works in older browsers)
+   Array.from(choicesEl.querySelectorAll("button.choice")).forEach(b => b.disabled = true);
+
 }
 
 function markCorrectWrong(selectedIndex) {
