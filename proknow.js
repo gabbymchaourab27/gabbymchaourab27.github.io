@@ -706,16 +706,16 @@ const DEFAULT_TOPICS = [
     {"q": "In 2024, how many countries had more than 3 million internally displaced people (IDPs) as a result of conflict?", "choices": ["Two", "Five", "Ten", "Twenty"], "correctIndex": 2}
 
     {"q": "What is the official assessed primary objective of North Korea's national security strategy?", "choices": ["Global economic expansion", "Ensuring the Kim regime's long-term security", "Establishing a democratic peninsula", "Developing a commercial space program"], "correctIndex": 1},
-        {"q": "The intelligence community assesses that North Korea is ______ to give up all of its nuclear weapons.", "choices": ["Likely", "Eager", "Unlikely", "Guaranteed"], "correctIndex": 2},
-        {"q": "How many ballistic missile test launches did North Korea conduct between 2022 and 2023?", "choices": ["Over 20", "Over 50", "Over 80", "Exactly 100"], "correctIndex": 2},
-        {"q": "In his 2023 New Year's address, Kim Jong Un reversed previous pledges to call for a mass production of what?", "choices": ["Naval destroyers", "Tactical nuclear weapons", "Cyber warfare code", "Submarine-launched drones"], "correctIndex": 1},
-        {"q": "According to the IAEA, North Korea began restoring test tunnels at which site in March 2022?", "choices": ["Punggye-ri", "Pyongyang", "Yongbyon", "Hamhung"], "correctIndex": 0},
+    {"q": "The intelligence community assesses that North Korea is ______ to give up all of its nuclear weapons.", "choices": ["Likely", "Eager", "Unlikely", "Guaranteed"], "correctIndex": 2},
+    {"q": "How many ballistic missile test launches did North Korea conduct between 2022 and 2023?", "choices": ["Over 20", "Over 50", "Over 80", "Exactly 100"], "correctIndex": 2},
+    {"q": "In his 2023 New Year's address, Kim Jong Un reversed previous pledges to call for a mass production of what?", "choices": ["Naval destroyers", "Tactical nuclear weapons", "Cyber warfare code", "Submarine-launched drones"], "correctIndex": 1},
+    {"q": "According to the IAEA, North Korea began restoring test tunnels at which site in March 2022?", "choices": ["Punggye-ri", "Pyongyang", "Yongbyon", "Hamhung"], "correctIndex": 0},
         
         // --- North Korea Military Posture (4/C LO 2) ---
-        {"q": "Which of these is listed as a 'Core Strength' of the North Korean military?", "choices": ["Stealth technology", "Massed artillery threat to South Korea", "Advanced logistics systems", "A numerically superior navy"], "correctIndex": 1},
-        {"q": "North Korea is described as one of the most ______ countries in the world.", "choices": ["Democratic", "Militarized", "Technologically advanced", "Globalized"], "correctIndex": 1},
-        {"q": "What is a major vulnerability of the North Korean military identified in the Pro-Book?", "choices": ["Lack of artillery", "Logistics for sustained combat operations", "Lack of underground facilities", "Insufficient defensive fortifications"], "correctIndex": 1},
-        {"q": "Which North Korean service is specifically responsible for ballistic missiles?", "choices": ["Air Force", "Navy", "Strategic Force", "Ground Forces"], "correctIndex": 2},
+    {"q": "Which of these is listed as a 'Core Strength' of the North Korean military?", "choices": ["Stealth technology", "Massed artillery threat to South Korea", "Advanced logistics systems", "A numerically superior navy"], "correctIndex": 1},
+    {"q": "North Korea is described as one of the most ______ countries in the world.", "choices": ["Democratic", "Militarized", "Technologically advanced", "Globalized"], "correctIndex": 1},
+    {"q": "What is a major vulnerability of the North Korean military identified in the Pro-Book?", "choices": ["Lack of artillery", "Logistics for sustained combat operations", "Lack of underground facilities", "Insufficient defensive fortifications"], "correctIndex": 1},
+    {"q": "Which North Korean service is specifically responsible for ballistic missiles?", "choices": ["Air Force", "Navy", "Strategic Force", "Ground Forces"], "correctIndex": 2},
         
         // --- North Korea Notable Events (4/C LO 3) ---
         {"q": "Which U.S. Navy intelligence vessel captured in 1968 remains in North Korea's possession today?", "choices": ["USS Arizona", "USS Pueblo", "USS Constitution", "USS Enterprise"], "correctIndex": 1},
@@ -742,7 +742,7 @@ const DEFAULT_TOPICS = [
         {"q": "In April 2024, Iran launched its first-ever direct military strike against Israel using over how many drones and missiles?", "choices": ["50", "100", "200", "300"], "correctIndex": 3},
         {"q": "In September 2023, IRGCN vessels committed which unsafe act against a U.S. helicopter?", "choices": ["Ramming attempt", "Shone a laser multiple times", "Fired machine guns", "Launched a drone"], "correctIndex": 1}
   ],
-  }
+  },
 ];
 
 /* ---------- STORAGE KEYS ---------- */
