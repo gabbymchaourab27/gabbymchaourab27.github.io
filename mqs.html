@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MQS | Study Hub</title>
+  <link rel="icon" href="data:," />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container row wrap">
+      <a class="btn" href="index.html">← Home</a>
+      <h1 class="brand">MQS Checklist</h1>
+      <span class="spacer"></span>
+      <button class="btn ghost" id="resetChecks">Reset checklist</button>
+    </div>
+    <div class="container navrow"><a class="navlink" href="pca.html">PCA</a><a class="navlink" href="proknow.html">ProKnow</a><a class="navlink" href="study.html">Study</a><a class="navlink on" href="mqs.html">MQS</a><a class="navlink" href="glossary.html">Glossary</a><a class="navlink" href="progress.html">Progress</a></div>
+  </header>
+
+  <main class="container">
+    <div class="panel controls">
+      <div class="seg" id="levelSeg">
+        <button class="seg-btn" data-level="4c">4/C</button>
+        <button class="seg-btn" data-level="3c">3/C</button>
+        <button class="seg-btn" data-level="2c">2/C</button>
+      </div>
+      <div class="overall-bar"><div class="bar"><div class="bar-fill" id="levelFill"></div></div><span id="levelPct" class="muted small"></span></div>
+    </div>
+    <div class="panel">
+      <h3>Reference documents</h3>
+      <div class="chip-row">
+        <a class="btn ghost" href="resources/Professional_Knowledge_Book_2026-2027_Final_for_Print_V2.pdf" target="_blank" rel="noopener">Professional Knowledge Book</a>
+        <a class="btn ghost" href="resources/ALL_MQS_LO_2025-2026_Final_for_Routing__10JUL___1_.pdf" target="_blank" rel="noopener">MQS and Learning Objectives</a>
+      </div>
+      <p class="muted small">Your checks are saved in this browser only. This tracks your own progress and does not replace signatures from your chain of command.</p>
+    </div>
+    <div id="mqsBody"></div>
+  </main>
+  <script src="levels.js"></script>
+  <script src="common.js"></script>
+  <script src="mqs-data.js"></script>
+  <script src="mqs.js"></script>
+</body>
+</html>

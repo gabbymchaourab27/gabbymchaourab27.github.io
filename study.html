@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Study | Study Hub</title>
+  <link rel="icon" href="data:," />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container row wrap">
+      <a class="btn" href="index.html">← Home</a>
+      <h1 class="brand">Study</h1>
+      <span class="spacer"></span>
+      
+    </div>
+    <div class="container navrow"><a class="navlink" href="pca.html">PCA</a><a class="navlink" href="proknow.html">ProKnow</a><a class="navlink on" href="study.html">Study</a><a class="navlink" href="mqs.html">MQS</a><a class="navlink" href="glossary.html">Glossary</a><a class="navlink" href="progress.html">Progress</a></div>
+  </header>
+
+  <main class="container">
+    <div class="panel controls">
+      <div class="seg" id="levelSeg">
+        <button class="seg-btn" data-level="4c">4/C</button>
+        <button class="seg-btn" data-level="3c">3/C</button>
+        <button class="seg-btn" data-level="2c">2/C</button>
+      </div>
+      <select id="chapterSel" class="topic-select show" aria-label="Chapter"></select>
+      <div class="seg" id="viewSeg">
+        <button class="seg-btn" data-view="cards">Flashcards</button>
+        <button class="seg-btn" data-view="sheet">Fact sheet</button>
+      </div>
+    </div>
+
+    <div id="cardsView">
+      <div class="panel cardpanel">
+        <div class="cardmetaline"><span id="cardPos" class="muted"></span>
+          <label class="inline-check"><input type="checkbox" id="hideKnown" /> Hide known</label>
+          <label class="inline-check"><input type="checkbox" id="shuffleCards" /> Shuffle</label>
+        </div>
+        <button class="flashcard" id="flashcard" aria-label="Flip card">
+          <span class="fc-side muted small" id="fcSide">Question</span>
+          <span class="fc-text" id="fcText"></span>
+        </button>
+        <div class="quiz-actions center">
+          <button class="btn ghost" id="prevCard">← Back</button>
+          <button class="btn" id="flipCard">Flip</button>
+          <button class="btn ghost" id="nextCard">Next →</button>
+        </div>
+        <div class="quiz-actions center">
+          <button class="btn ghost" id="markKnown">Mark as known</button>
+          <button class="btn ghost" id="resetKnown">Clear known</button>
+        </div>
+        <p class="muted small center-text">Keys: Left and Right to move, Space to flip, K to mark known.</p>
+      </div>
+    </div>
+
+    <div id="sheetView" style="display:none">
+      <div class="panel">
+        <div class="sheet-tools">
+          <input id="sheetSearch" class="search" type="search" placeholder="Search this chapter" />
+          <button class="btn ghost" id="printSheet">Print</button>
+        </div>
+        <div id="sheetBody"></div>
+      </div>
+    </div>
+  </main>
+  <script src="levels.js"></script>
+  <script src="common.js"></script>
+  <script src="proknow.js"></script>
+  <script src="pca3c.js"></script>
+  <script src="pca2c.js"></script>
+  <script src="study.js"></script>
+</body>
+</html>

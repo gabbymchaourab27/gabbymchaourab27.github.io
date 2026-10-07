@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home | Study Hub</title>
+  <link rel="icon" href="data:," />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container">
+      <h1 class="brand">Professional Knowledge</h1>
+      <p class="subtitle">Choose a section to begin</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card-grid">
+      <a class="card-link" href="pca.html"><div class="card"><h2>PCA</h2><p>3/C and 2/C quizzes built from each class year's MQS</p></div></a>
+      <a class="card-link" href="pcb.html"><div class="card"><h2>PCB</h2><p>Go to PCB resources</p></div></a>
+      <a class="card-link" href="proknow.html"><div class="card"><h2>ProKnow</h2><p>4/C timed quizzes and score tracking</p></div></a>
+    </section>
+    <h3 class="section-label">Study tools</h3>
+    <section class="card-grid">
+      <a class="card-link" href="study.html"><div class="card"><h2>Study</h2><p>Flashcards and printable fact sheets for every chapter</p></div></a>
+      <a class="card-link" href="mqs.html"><div class="card"><h2>MQS Checklist</h2><p>Check off every learning objective, plus links to the Pro-Book</p></div></a>
+      <a class="card-link" href="glossary.html"><div class="card"><h2>Glossary</h2><p>Searchable abbreviations and terms</p></div></a>
+      <a class="card-link" href="progress.html"><div class="card"><h2>Progress</h2><p>Scores by chapter over time and your weakest chapter</p></div></a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">© <span id="year"></span> Gabby Mchaourab</div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

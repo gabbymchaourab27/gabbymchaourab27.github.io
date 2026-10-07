@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Progress | Study Hub</title>
+  <link rel="icon" href="data:," />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container row wrap">
+      <a class="btn" href="index.html">← Home</a>
+      <h1 class="brand">Progress</h1>
+      <span class="spacer"></span>
+      
+    </div>
+    <div class="container navrow"><a class="navlink" href="pca.html">PCA</a><a class="navlink" href="proknow.html">ProKnow</a><a class="navlink" href="study.html">Study</a><a class="navlink" href="mqs.html">MQS</a><a class="navlink" href="glossary.html">Glossary</a><a class="navlink on" href="progress.html">Progress</a></div>
+  </header>
+
+  <main class="container">
+    <div id="weakest" class="panel callout" style="display:none"></div>
+    <div class="panel controls">
+      <div class="seg" id="levelSeg">
+        <button class="seg-btn" data-level="4c">4/C</button>
+        <button class="seg-btn" data-level="3c">3/C</button>
+        <button class="seg-btn" data-level="2c">2/C</button>
+      </div>
+      <span class="spacer"></span>
+      <button class="btn ghost" id="resetLevel">Reset this level</button>
+    </div>
+    <div class="panel"><h3 id="levelTitle">Chapters</h3><div id="chapRows"></div>
+      <p class="muted small">The line beside each bar is your accuracy by day, most recent days on the right.</p></div>
+    <div class="panel"><h3>Timed tests</h3><div id="tests"></div></div>
+  </main>
+  <script src="levels.js"></script>
+  <script src="common.js"></script>
+  <script src="progress.js"></script>
+</body>
+</html>

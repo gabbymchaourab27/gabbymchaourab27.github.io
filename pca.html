@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PCA | Study Hub</title>
+  <link rel="icon" href="data:," />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container row wrap">
+      <a class="btn" href="index.html">← Home</a>
+      <h1 class="brand">PCA</h1>
+      <span class="spacer"></span>
+      
+    </div>
+    <div class="container navrow"><a class="navlink on" href="pca.html">PCA</a><a class="navlink" href="proknow.html">ProKnow</a><a class="navlink" href="study.html">Study</a><a class="navlink" href="mqs.html">MQS</a><a class="navlink" href="glossary.html">Glossary</a><a class="navlink" href="progress.html">Progress</a></div>
+  </header>
+
+  <main class="container">
+    <section class="card-grid wide">
+      <a class="card-link" href="pca3c.html">
+        <div class="card">
+          <h2>3/C PCA</h2>
+          <p>Timed quiz built only from the 3/C MQS. Eleven chapters, practice, missed review and timed tests.</p>
+          <p class="small cardmeta" id="meta3c"></p>
+        </div>
+      </a>
+      <a class="card-link" href="pca2c.html">
+        <div class="card">
+          <h2>2/C PCA</h2>
+          <p>Timed quiz built only from the 2/C MQS. Eleven chapters, practice, missed review and timed tests.</p>
+          <p class="small cardmeta" id="meta2c"></p>
+        </div>
+      </a>
+    </section>
+
+    <div class="panel">
+      <h3>PCA tools</h3>
+      <div class="chip-row">
+        <a class="btn ghost" href="mqs.html?level=3c">3/C MQS checklist</a>
+        <a class="btn ghost" href="mqs.html?level=2c">2/C MQS checklist</a>
+        <a class="btn ghost" href="study.html?level=3c">3/C study cards</a>
+        <a class="btn ghost" href="study.html?level=2c">2/C study cards</a>
+        <a class="btn ghost" href="progress.html">Progress</a>
+      </div>
+      <p class="muted small">Questions come only from the MQS items for that class year. Fall PCA covers chapters 1 to 5 and Spring PCA covers chapters 6 to 11.</p>
+    </div>
+  </main>
+  <script src="common.js"></script>
+  <script>
+    ["3c","2c"].forEach(function(l){
+      var s = SH.load("pca"+l+"_score_v1", null);
+      var el = document.getElementById("meta"+l);
+      if(s && s.overall && s.overall.total){ el.textContent = "Your score: " + s.overall.correct + " / " + s.overall.total; }
+    });
+  </script>
+</body>
+</html>

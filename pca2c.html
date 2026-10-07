@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PCA 2/C | Study Hub</title>
+  <link rel="icon" href="data:," />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container row wrap">
+      <a class="btn" href="index.html">← Home</a>
+      <h1 class="brand">PCA 2/C</h1>
+      <span class="spacer"></span>
+      <button class="btn ghost" id="resetScoreBtn" title="Reset score">Reset Score</button>
+      <button class="btn ghost" id="shuffleBtn" title="New question">Skip</button>
+    </div>
+    <div class="container navrow"><a class="navlink on" href="pca.html">PCA</a><a class="navlink" href="proknow.html">ProKnow</a><a class="navlink" href="study.html">Study</a><a class="navlink" href="mqs.html">MQS</a><a class="navlink" href="glossary.html">Glossary</a><a class="navlink" href="progress.html">Progress</a></div>
+  </header>
+
+  <main class="container proknow-layout">
+    <aside class="sidebar">
+      <h2 class="sidebar-title">Chapters</h2>
+      <nav id="topicList" class="topic-list"></nav>
+      <select id="topicSelect" class="topic-select" aria-label="Chapter"></select>
+
+      <div class="sidebar-block">
+        <h3 class="sidebar-subtitle">Quiz Settings</h3>
+        <label class="field">
+          <span>Time per question in seconds, 0 for no timer</span>
+          <input id="timePerQ" type="number" min="0" max="300" step="5" value="20" />
+        </label>
+        <label class="field row-field">
+          <input id="autoAdvance" type="checkbox" checked />
+          <span>Auto-advance after answer</span>
+        </label>
+        <p class="muted small">Keys: 1 to 9 pick an answer, Enter for next or submit.</p>
+      </div>
+    </aside>
+
+    <section class="content">
+      <div class="panel split">
+        <div>
+          <h2 id="topicTitle">Chapter</h2>
+          <p class="muted" id="topicDesc"></p>
+          <a class="small" id="studyLink" href="study.html">Study this chapter →</a>
+        </div>
+        <div class="scorebox">
+          <div class="scoreline"><span class="muted">Overall</span><strong id="overallScore">0 / 0</strong></div>
+          <div class="scoreline"><span class="muted">This chapter</span><strong id="topicScore">0 / 0</strong></div>
+          <div class="timer"><span class="muted">Time left</span><strong id="timeLeft">--</strong></div>
+        </div>
+      </div>
+
+      <div class="panel modebar">
+        <div class="seg" role="tablist">
+          <button class="seg-btn active" data-mode="practice">Practice</button>
+          <button class="seg-btn" data-mode="missed">Missed review <span class="badge" id="missedCount">0</span></button>
+          <button class="seg-btn" data-mode="test">Timed test</button>
+        </div>
+        <div class="testcfg" id="testCfg" style="display:none">
+          <label class="inline-field"><span>Questions</span>
+            <input id="testCount" type="number" min="1" max="500" value="20" /></label>
+          <button class="btn" id="startTestBtn">Start test</button>
+          <button class="btn ghost" id="quitTestBtn" style="display:none">Quit test</button>
+        </div>
+      </div>
+
+      <div class="panel" id="quizPanel">
+        <h3 id="quizHeading">Practice</h3>
+        <div class="deck-info muted small" id="deckInfo"></div>
+        <div class="quiz">
+          <div class="question" id="questionText">Loading…</div>
+          <div class="choices" id="choices"></div>
+          <div class="quiz-actions">
+            <button class="btn" id="submitBtn" style="display:none">Submit</button>
+            <button class="btn" id="nextBtn">Next Question</button>
+            <div class="feedback" id="feedback" aria-live="polite"></div>
+          </div>
+          <div class="reveal" id="answerReveal"></div>
+          <div class="explain muted" id="explain"></div>
+        </div>
+      </div>
+
+      <div class="panel" id="resultPanel" style="display:none"></div>
+
+      <div class="panel">
+        <h3>Practice Tests / Links</h3>
+        <ul class="links" id="practiceLinks"></ul>
+      </div>
+    </section>
+  </main>
+
+  <script src="levels.js"></script>
+  <script src="common.js"></script>
+  <script src="pca2c.js"></script>
+  <script>window.QUIZ_CONFIG = { level: "2c", prefix: "pca2c" };</script>
+  <script src="quiz.js"></script>
+</body>
+</html>
