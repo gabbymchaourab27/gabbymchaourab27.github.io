@@ -247,7 +247,6 @@ QUIZ_DATA["4c"] = [
       {"q": "What does the Surface Warfare Officer insignia depict?", "choices": ["Waves breaking before a ship's bow over crossed swords", "An anchor over a trident", "A compass rose over a wheel", "A cutlass over a star"], "correctIndex": 0},
       {"q": "In what year was the Surface Warfare Officer insignia introduced?", "choices": ["1965", "1979", "1975", "1983"], "correctIndex": 2},
       {"q": "Which admiral established the Surface Warfare Officer insignia?", "choices": ["Admiral John Richardson", "Admiral Hyman Rickover", "Admiral Arleigh Burke", "Admiral Elmo Zumwalt"], "correctIndex": 3},
-      {"q": "What is the SWO Nuclear community pronounced?", "choices": ["SWO-KNEE", "SWO-NU", "SWO-NEW", "SWO-NUKE"], "correctIndex": 3},
       {"q": "Where do SWO Nuclear candidates attend Nuclear Power School?", "choices": ["Norfolk, Virginia", "Pensacola, Florida", "Newport, Rhode Island", "Charleston, South Carolina"], "correctIndex": 3},
       {"q": "What qualification do SWO Nuclear officers pursue on an aircraft carrier?", "choices": ["Engineering Officer of the Watch only", "Officer of the Deck", "Tactical Action Officer", "Propulsion Plant Watch Officer"], "correctIndex": 3},
       {"q": "SWO Nuclear candidates interview with which organization?", "choices": ["Navy Personnel Command", "Naval Sea Systems Command", "Bureau of Medicine", "Naval Reactors"], "correctIndex": 3},
