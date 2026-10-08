@@ -1,7 +1,7 @@
-/* 4/C ProKnow question bank. Edit practiceLinks as {label, url} objects.
-   Question types: multiple choice and true/false use correctIndex.
+/* 4/C ProKnow question bank.
+   Questions: multiple choice and true/false use correctIndex.
    Select-all questions use type "multi" with correctIndexes.
-   Optional per-question field: "explain". */
+ */
 window.QUIZ_DATA = window.QUIZ_DATA || {};
 QUIZ_DATA["4c"] = [
 {
@@ -208,35 +208,35 @@ QUIZ_DATA["4c"] = [
   "title": "Surface Warfare",
   "practiceLinks": [
     {
-      "label": "Practice Test 1",
+      "label": "SWO History",
       "url": "https://forms.gle/GtU8jAd7HRxv7L339"
     },
     {
-      "label": "Practice Test 2",
+      "label": "DDGs",
       "url": "https://forms.gle/w5jrKPFa2Lnfjbcs9"
     },
     {
-      "label": "Practice Test 3",
+      "label": "LCS",
       "url": "https://forms.gle/gx2Q6YV1k5gYVmf3A"
     },
     {
-      "label": "Practice Test 4",
+      "label": "LCU, LCAC, MCM-1",
       "url": "https://forms.gle/nTLvpMfkqUTXpT1v7"
     },
     {
-      "label": "Practice Test 5",
+      "label": "LHD, LHA",
       "url": "https://forms.gle/UUzL3CqhSrfG121p9"
     },
     {
-      "label": "Practice Test 6",
+      "label": "Zumwalt",
       "url": "https://forms.gle/sykpDPpmbDuNubxN6"
     },
     {
-      "label": "Practice Test 7",
+      "label": "LSD and LPD",
       "url": "https://forms.gle/3eqMLgUJdy8uKqSM8"
     },
     {
-      "label": "Practice Test 8",
+      "label": "Practice Test",
       "url": "https://forms.gle/JehVRYZMNGyHpq9e9"
     }
   ],
